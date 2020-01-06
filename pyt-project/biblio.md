@@ -17,9 +17,13 @@ Existem 2 maneiras de se importar:
 #### Exemplo
 
 In[1]: from math import sin, pi
+
 In[2]: sin(90)
+
 Out[2]: 0.8939966636005579
+
 In[3]: pi
+
 Out[3]: 3.141592653589793
 
 É possível importar todas as funções e variáveis de uma biblioteca usando o comando: 
