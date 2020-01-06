@@ -12,6 +12,6 @@ Existem 2 maneiras de se importar:
 + Direta - Nesse caso, importa-se apenas a função ou funções que se deseja usar são. O comando geral para a importação direta é:
 ```
        from módulo import função1, função2,... ,funçãon
-       Onde “módulo” é o nome do módulo que contém as funções que se deseja importar e “função1” , “função2”, etc. são os nomes das funções.
+       Onde “módulo” é o nome do módulo contendo as funções que se quer importar e “função1”, “função2”,... são os nomes das funções.
 ```
 + Indireta - 
