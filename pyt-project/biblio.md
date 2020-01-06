@@ -32,9 +32,13 @@ from módulo import *
 Onde a lista de funções é substituída pelo asterisco que indica “todos”. 
 ```
 In[1]: from math import *
+
 In[2]: cos(90)
+
 Out[2]: -0.4480736161291701
+
 In[3]: sin(60)
+
 Out[3]: 0.70710678118654746 
 
 + Indireta - Nesse caso todo o módulo é importado e as funções e variáveis são acessadas com o nome do módulo seguido de um ponto seguido do nome da função (módulo.função). O comando usado para a importação indireta é:
@@ -43,10 +47,15 @@ import módulo
 ```
 #### Exemplo
 In[1]: import math
+
 In[2]: math.cos(90)
+
 Out[2]: -0.4480736161291701
+
 In[3]: math.sin(60)
+
 Out[3]: 0.70710678118654746 
+
 
 
 
