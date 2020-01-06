@@ -16,7 +16,7 @@ Existem 2 maneiras de se importar:
 ```
 #### Exemplo
 
-In[1]: <b>from math import sin, pi</b>
+In[1]: <b>from math import sin, pi</b>  #importando apenas as funções sin e pi da biblioteca math
 
 In[2]: sin(90)
 
@@ -31,7 +31,7 @@ Out[3]: 3.141592653589793
 from módulo import *
 Onde a lista de funções é substituída pelo asterisco que indica “todos”. 
 ```
-In[1]: from math import *
+In[1]: <b>from math import *</b>  #Importando todas as funções da biblioteca math
 
 In[2]: cos(90)
 
@@ -46,7 +46,7 @@ Out[3]: 0.70710678118654746
 import módulo
 ```
 #### Exemplo
-In[1]: import math
+In[1]: <b>import math</b>     #Importando todas as funções da biblioteca math
 
 In[2]: math.cos(90)
 
