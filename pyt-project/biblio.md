@@ -16,7 +16,7 @@ Existem 2 maneiras de se importar:
 ```
 #### Exemplo
 
-In[1]: from math import sin, pi
+In[1]: <b>from math import sin, pi</b>
 
 In[2]: sin(90)
 
