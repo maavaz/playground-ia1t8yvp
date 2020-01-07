@@ -13,8 +13,8 @@ Existem 2 maneiras de se importar:
 ```
        from módulo import função1, função2,... ,funçãon
        
-       “módulo” é o nome do módulo contendo as funções que se quer importar 
-       “função1”, “função2”,... são os nomes das funções.
+      - “módulo” é o nome do módulo contendo as funções que se quer importar 
+      - “função1”, “função2”,... são os nomes das funções.
 ```
 #### Exemplo
 
