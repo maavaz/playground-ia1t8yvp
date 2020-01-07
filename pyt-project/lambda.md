@@ -20,3 +20,17 @@ soma = soma_lambda(10,20)
 
 print ('Soma Lambda = ', soma)
 ```
+A forma geral para criação da Função Lambda é:
+```
+nome da função = lambda variável1, variável2, … : fórmula
+```
+As variáveis que aparecem na definição da função são os parâmetros e fórmula é a expressão da função.
+
+Exemplo:
+```
+In [1]: cubo = lambda numero: numero * numero * numero
+In [2]: cubo(3)
+Out[2]: 27
+In [3]: cubo(5)
+Out[3]: 125
+```
