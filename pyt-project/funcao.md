@@ -18,7 +18,7 @@ def nome da função(variável 1, variável 2, ... , variável n):
  return valor
 
 ```
-Uma função necessariamente deve retornar um valor (resultado) ao programa que a chamou através da comando **return**. Mas, existem situações onde uma função não retorna valor algum (sem comando return), nesse caso, a função é denominada de procedimento ou sub-rotina.
+Uma função necessariamente deve retornar um valor (resultado) ao programa que a chamou, através da comando **return**. Mas, existem situações onde uma função não retorna valor algum (sem comando return), nesse caso, a função é denominada de **procedimento ou sub-rotina**.
 
 As variáveis que aparecem dentro do parênteses da função são denominadas de **parâmetros ou argumentos da função**. 
 
