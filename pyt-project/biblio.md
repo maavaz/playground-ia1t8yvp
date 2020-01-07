@@ -2,7 +2,7 @@
 
 A biblioteca padrão do Python é muito extensa, oferecendo um amplo conjunto de módulos e funções úteis que minimizam o uso de código. 
 Os módulos (funções) fornecem acesso à funcionalidade do sistema, bem como soluções padronizadas para muitos problemas que ocorrem em programação. 
-Alguns desses módulos são explicitamente projetados para incentivar e aprimorar a portabilidade de programas em Python,abstraindo os detalhes da plataforma em APIs neutras em plataforma.
+Alguns desses módulos são explicitamente projetados para incentivar e aprimorar a portabilidade de programas em Python, abstraindo os detalhes das diferentes plataformas.
 
 ### Como usar os módulos e sua Funções
 
