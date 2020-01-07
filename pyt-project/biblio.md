@@ -12,7 +12,9 @@ Existem 2 maneiras de se importar:
 + Direta - Nesse caso, importa-se apenas a função ou funções que se deseja usar são. O comando geral para a importação direta é:
 ```
        from módulo import função1, função2,... ,funçãon
-       Onde “módulo” é o nome do módulo contendo as funções que se quer importar e “função1”, “função2”,... são os nomes das funções.
+       
+       “módulo” é o nome do módulo contendo as funções que se quer importar 
+       “função1”, “função2”,... são os nomes das funções.
 ```
 #### Exemplo
 
@@ -28,8 +30,9 @@ Out[3]: 3.141592653589793
 
 É possível importar todas as funções e variáveis de uma biblioteca usando o comando: 
 ```
-from módulo import *
-Onde a lista de funções é substituída pelo asterisco que indica “todos”. 
+from módulo import * 
+
+- a lista de funções é substituída pelo asterisco que indica “todos”. 
 ```
 In[1]: <b>from math import *</b>  #Importando todas as funções da biblioteca math
 
