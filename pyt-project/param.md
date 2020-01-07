@@ -8,7 +8,7 @@ Pode-se definir um valor padrão para os argumentos e, na ausência de valor na 
 
 def ex_soma_1(a, b=10):  # foi definido o valor 10 como padrão de b. Caso não seja fornecido pelo programa a função usará esse valor
     s = a + b 
-    return i + j
+    return s
 
 soma = ex_soma_1(7)  # usará o valor padrão
 print('soma1 = ',soma)
