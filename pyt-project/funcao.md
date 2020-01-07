@@ -29,7 +29,7 @@ Os valores não necessariamente precisam estar dentro de variáveis para serem p
 
 
 O programa exemplo, a seguir, mostra uma função e uma sub-rotina.
-``` runnable python
+``` python runnable 
 def ex_soma(num1, num2):
   s = num1 + num2
  return s
