@@ -26,11 +26,13 @@ Uma função pode ter 0 (zero) ou n argumentos ou parâmetros. Parâmetros funci
 
 Os valores não necessariamente precisam estar dentro de variáveis para serem passados para as funções. O programador pode escrever o valor (estático) diretamente nos parênteses.
 
-Os parâmetros são passados para uma função de acordo com a sua posição. Ou seja, o primeiro parâmetro da chamada (programa) define o valor do primeiro parâmetro na definição da função, o segundo parâmetro do programa define o valor do segundo parâmetro da função e assim por diante.
+Os parâmetros são passados para uma função de acordo com a sua posição, isto é, serão atribuídos às variáveis na ordem (posição) em que estas foram declaradas. Ou seja, o primeiro parâmetro da chamada (programa) define o valor do primeiro parâmetro na definição da função, o segundo parâmetro do programa define o valor do segundo parâmetro da função e assim por diante.
 
 
-O programa exemplo, a seguir, mostra uma função e uma sub-rotina.
+O programa exemplo, a seguir, mostra duas funções (com e sem parâmetros) e uma sub-rotina.
 ``` python runnable 
+def dez():
+  return 10
 def ex_soma(num1, num2):
   s = num1 + num2
   return s
@@ -38,8 +40,8 @@ def ex_soma(num1, num2):
 def exibir(msg, valor):
   print(msg, valor)
   
-numero1 = 10
-numero2 = 100
-soma = ex_soma(numero1, numero2)
-exibir("A soma dos números é igual a", soma)
+numero1 = dez()   # Função irá retornar o número 10
+numero2 = dez()**2  # O número 10 retornado da função será elevado ao quadrado
+soma = ex_soma(numero1, numero2)  # Chama a função para realizar a soma de 10 (numero 1) e 100 (numero2)
+exibir("A soma dos números é igual a", soma)  #chama a subrotina para exibir a mensagem e o resultado da soma
 ```
