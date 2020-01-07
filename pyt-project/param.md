@@ -10,9 +10,15 @@ def ex_soma_2(a, b=10, c=0):   # Os parâmetros b e c possuem valores padrão, c
         return s
  
 
-soma = ex_soma_2(1, c=2)
+soma = ex_soma_2(1, c=2)  # O valor 10 do parâmetro b é mantido
 print('soma =', soma)
 
+x = 10
+y = 100
+z = 1000
+
+soma = ex_soma_2(x, y=2, z=1)
+print('soma =', soma)
 
 soma = ex_soma_2(1, c=2, b=1)
 print('soma =', soma)
