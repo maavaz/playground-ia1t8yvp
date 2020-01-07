@@ -5,11 +5,16 @@ Além da forma padrão de passar parâmetros/argumentos para as funções, há o
 Pode-se passar argumentos com valores até para os argumentos posicionais bastando explicitar o nome da variável e até em uma ordem diferente daquela originalmente definida.
 Exemplo:
 ``` python runnable
-def ex_soma_2(a, b=10, c=0):
+def ex_soma_2(a, b=10, c=0):   # Os parâmetros b e c possuem valores padrão, caso não seja enviados
         s = a + b + c
         return s
  
-soma = ex_soma_2(1, b=2, c=1)
+
+soma = ex_soma_2(1, c=2)
+print('soma =', soma)
+
+
+soma = ex_soma_2(1, c=2, b=1)
 print('soma =', soma)
 ```
 
