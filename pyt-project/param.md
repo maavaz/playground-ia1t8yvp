@@ -26,9 +26,14 @@ z = 1000
 soma = ex_soma_2(x, y, z)  # essa chamada está correta 
 print('soma3 =', soma)
 
-soma = ex_soma_2(b=0, a=2, 10)
-print('soma4 =', soma)
+# soma = ex_soma_2(b=0, a=2, 10) Essa chamada dará erro também. Veja a explicação a seguir
+# print('soma4 =', soma)
 
 ```
 
-**OBS:** Você não pode usar argumentos posicionais depois dos argumento com palavra chave “(b=0, c=1, 10)” .
+**OBS:** Você não pode usar argumentos posicionais depois dos argumento com palavra chave “(b=0, c=1, 10)”.
+Erro:
+File "main.py", line 29
+    soma = ex_soma_2(b=0, a=2, 10)
+                               ^
+SyntaxError: positional argument follows keyword argument
