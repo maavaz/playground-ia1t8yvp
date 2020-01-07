@@ -11,19 +11,22 @@ def ex_soma_2(a, b=10, c=0):   # Os parâmetros b e c possuem valores padrão, c
  
 
 soma = ex_soma_2(1, c=2)  # O valor 10 do parâmetro b é mantido
-print('soma =', soma)
+print('soma1 =', soma)
 
+soma = ex_soma_2(1, c=2, b=1)
+print('soma2 =', soma)
+
+# Quando usamos variáveis com nomes diferentes não podemos usar as facilidades acima
 x = 10
 y = 100
 z = 1000
 
-soma = ex_soma_2(x, y=2, z=1)
+# soma = ex_soma_2(x, y=2, z=1) Essa chamada de função dará erro
+
+soma = ex_soma_2(x, y, z)  # essa chamada está correta 
 print('soma =', soma)
 
-soma = ex_soma_2(1, c=2, b=1)
-print('soma =', soma)
 ```
 
->>> argumentos_padrao_2(k=1, i=2, j=3)
-6
+
 E lembrando que há uma limitação aqui. Você não pode usar argumentos posicionais depois dos argumento com palavra chave “(j=0, k=1, 10)” e muito menos repetir um mesmo valor já definido nos argumentos posicionais “(10, i=10)”.
