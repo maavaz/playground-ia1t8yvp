@@ -32,7 +32,7 @@ O programa exemplo, a seguir, mostra uma função e uma sub-rotina.
 ``` python runnable 
 def ex_soma(num1, num2):
   s = num1 + num2
- return s
+  return s
 
 def exibir(msg, valor):
   print(msg, valor)
