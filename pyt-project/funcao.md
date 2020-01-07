@@ -26,6 +26,7 @@ Uma função pode ter 0 (zero) ou n argumentos ou parâmetros. Parâmetros funci
 
 Os valores não necessariamente precisam estar dentro de variáveis para serem passados para as funções. O programador pode escrever o valor (estático) diretamente nos parênteses.
 
+Os parâmetros são passados para uma função de acordo com a sua posição. Ou seja, o primeiro parâmetro da chamada (programa) define o valor do primeiro parâmetro na definição da função, o segundo parâmetro do programa define o valor do segundo parâmetro da função e assim por diante.
 
 
 O programa exemplo, a seguir, mostra uma função e uma sub-rotina.
