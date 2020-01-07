@@ -40,5 +40,5 @@ def exibir(msg, valor):
 numero1 = 10
 numero2 = 100
 soma = ex_soma(numero1, numero2)
-exibir("A soma dos números é igual a", 
+exibir("A soma dos números é igual a", soma)
 ```
