@@ -70,6 +70,30 @@ Fazer 2 funções:
 + Função lambda para calcular a media ponderada das notas. Argumentos de entrada duas notas, Saída a média. 
 + Função Local que irá receber como argumento de entrada a média das notas e retornar o conceito conforme a tabela acima.
 
+::: Solução
+``` python
+ponder = lambda n1, n2: n1 * 0.4 + n2 * 0.6
+
+def conceito(media):
+    if media < 5.0:
+        m = 'D'
+    elif media < 7.0:
+        m = 'C'
+    elif media < 9.0:
+        m = 'B'
+    else:
+        m = 'A'
+    return m
+    
+for i in range(10):
+   nota1 = float(input('Digite a primeira Nota:'))
+   nota2 = float(input('Digite a segunda Nota:'))
+   media = ponder(nota1,nota2)
+   conc = conceito(media)
+   print("A média do aluno é:{0:.2f}".format(media)) 
+   print("O conceito do aluno é:", conc) 
+ ```  
+
 ---   
  #### Exercício 2  
 ---
