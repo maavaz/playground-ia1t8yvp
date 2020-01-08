@@ -100,12 +100,23 @@ for i in range(10):
  #### Exercício 2  
 ---
 
-Um determinado prêmio de loteria saiu para um bolão de três amigos. Uma lei garante que todo prêmio de loteria deva pagar um imposto de 7% para os cofres estaduais. Do total descontado o imposto, os amigos irão dividir o prêmio da seguinte maneira:
+Faça um programa para calcular o valor das parcelas de um financiamento no regime de juros compostos com capitalização mensal. O programa deverá ler o valor do financiamento e o número de parcelas, calcular e exibir o valor da parcela. O programa termina quando o valor do financiamento for igual a zero. Abaixo apresentamos a tabela contendo os prazos de financiamentos e a taxa de juros anual:
 
-+ O primeiro ganhador recebera 46%;
-+ O segundo recebera 32%;
-+ O terceiro recebera o restante;
-Faça um programa que leia o valor total do prêmio, calcule o desconto, o valor que cada um tem direito e imprima o total do prêmio, o premio descontado o imposto e a quantia recebida por cada um dos ganhadores.
+
+**Prazo**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**taxa a.a.** <p></p>
+   6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        7%    
+  12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       10%    
+  18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       12%    
+  24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       15%    
+  36&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       18%    
+
+Fazer uma função denominada <b>float financiamento()</b> que deverá receber o valor do financiamento e o número de parcelas, calcular e retornar o valor da prestação. Utilizar a estrutura </>switch ... case</b> apar selecionar a taxa de juros representada em valor decimal. Como a capitalização é mensal, dividir a taxa por 12. 
+A fórmula de cálcula da prestação é: 
+
+$`prestacao=valor financiamento × \frac{(1+taxa)^p × taxa}{(1+taxa)^p  - 1}`$
+
+<b>*obs: p = número de parcelas</b>
+
 
 ---
  #### Exercício 3  
