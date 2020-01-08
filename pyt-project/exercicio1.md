@@ -70,6 +70,8 @@ Fazer 2 funções:
 + Função lambda para calcular a media ponderada das notas. Argumentos de entrada duas notas, Saída a média. 
 + Função Local que irá receber como argumento de entrada a média das notas e retornar o conceito conforme a tabela acima.
 
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor.sh" })
+
 ::: Solução
 ``` python
 ponder = lambda n1, n2: n1 * 0.4 + n2 * 0.6
