@@ -44,24 +44,12 @@ imprime('Programar')
 -[ ] texto é muito bom!!!
 -[ ] programar
 
-```python
-valorum   = 5 ** 2
-valordois = 5 ** 3
-print(valorum, valordois, valorum+valordois)
-```
 ?[Qual a implicação no resultado se o comando return não for usado em uma função?](single)
 -[ ] retornará o valor 0 
 -[ ] retornará o valor -1 (indicação de erro na execução)
 -[x] não irá retornar valor algum
 -[ ] Erro de Sinataxe!!!
 
-?[Um programa deseja usar a função pi do pacote math, qual a sintaxe para sua utilização?](single)
--[ ] print(math.pi) 
--[ ] print(pi)
--[x] from math import pi
-     print(pi)
--[ ] from math import pi
-     print(math.pi)
 ---
 ### Exercícios
 ---
