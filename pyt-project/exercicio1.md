@@ -46,7 +46,7 @@ imprime('Programar')
 
 ?[Qual a implicação no resultado se o comando return não for usado em uma função?](single)
 -[ ] retornará o valor 0 
--[ ] retornará o valor -1 (indicação de erro na execução)
+-[ ] Erro na execução da Função !!!
 -[x] não irá retornar valor algum
 -[ ] Erro de Sinataxe!!!
 
