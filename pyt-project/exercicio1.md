@@ -102,14 +102,16 @@ for i in range(10):
 Faça um programa para calcular o valor das parcelas de um financiamento no regime de juros compostos com capitalização mensal. O programa deverá ler o valor do financiamento e o número de parcelas, calcular e exibir o valor da parcela. O programa termina quando o valor do financiamento for igual a zero. Abaixo apresentamos a tabela contendo os prazos de financiamentos e a taxa de juros anual:
 
 
-**Prazo**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**taxa a.a.** <p></p>
+**Prazo**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**taxa a.a.** <p></p>
    6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  7%    
   12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10%    
   18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12%    
   24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15%    
   36&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18%    
    
-Fazer uma função denominada <b>float financiamento()</b> que deverá receber o valor do financiamento e o número de parcelas, calcular e retornar o valor da prestação. Utilizar a estrutura </>switch ... case</b> apar selecionar a taxa de juros representada em valor decimal. Como a capitalização é mensal, dividir a taxa por 12. 
+Fazer duas funções:
++ Função lambda que calcula o valor da prestação. Argumentos de entrada: financimento, prazo e taxa; saída: prestação
++ função local que seleciona o percentual do financiamento. Argumento de entrada: prazo; saída: taxa. A taxa da tabela é anual, mas como a capitalização é mensal, é necessário dividir a taxa por 12. 
 A fórmula de cálcula da prestação é: 
 
 $`prestacao=valor financiamento × \frac{(1+taxa)^p × taxa}{(1+taxa)^p  - 1}`$
