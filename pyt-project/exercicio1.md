@@ -95,6 +95,8 @@ for i in range(10):
    print("A média do aluno é:{0:.2f}".format(media)) 
    print("O conceito do aluno é:", conc) 
  ```  
+:::
+
 <p></p>
 ---   
  #### Exercício 2  
