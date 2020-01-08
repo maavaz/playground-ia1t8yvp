@@ -50,19 +50,24 @@ imprime('Programar')
 -[x] não irá retornar valor algum
 -[ ] Erro de Sinataxe!!!
 
----
-### Exercícios
----
-
-OBS:Os exercícios a seguir não possuem gabarito, caso desejem a correção favor enviar sua solução por mensagem no Tech.io. Desenvolva-os no editor python de sua preferência
-
----
+_--
  #### Exercício 1  
 ---
 
-Faça um programa para calcular a quantidade de latas de tintas para pintar uma parede. O programa deverá solicitar ao usuário, a altura (float) e o comprimento(float) da parede. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 3,6 litros, que custam R$ 107,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
+Exercício 1
+----
+Faça um programa que leia duas notas de um aluno numa turma de 10 alunos. Para cada aluno, calcular a média ponderadas das notas, sabendo que a <b>nota1</b> tem <b>peso = 4</b> e a <b>nota2</b> tem <b>peso = 6</b>. Imprimir a média do aluno e o conceito final, conforme tabela abaixo:
+ Intervalo     Conceito 
+ 0.0 a 4.9        D     
+ 5.0 a 6.9        C     
+ 7.0 a 8.9        B     
+ 9.0 a 10.0       A     
 
----
+
+Fazer 2 funções:
+A primeira função denominada <b>float mediapond()</b> irá receber as duas notas, calcular e retornar a média ponderada. A segunda função denominada <b>char conceito()</b> irá receber a média das notas e retornar o conceito conforme a tabela acima.
+
+---   
  #### Exercício 2  
 ---
 
