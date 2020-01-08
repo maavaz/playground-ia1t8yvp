@@ -118,7 +118,31 @@ $`prestacao=valor financiamento × \frac{(1+taxa)^p × taxa}{(1+taxa)^p  - 1}`$
 
 <b>*obs: p = número de parcelas</b>
 
+::: Solução
 
+prestacao = lambda finan, prazo, taxa : finan * ((1 + taxa)**prazo * taxa) / ((1 + taxa)**prazo - 1)
+
+def percentual(prazo):
+    if prazo == 6:
+        perc = 0.07/12
+    elif prazo == 12:
+        perc = 0.1/12
+    elif prazo == 18:
+        perc = 0.12/12
+    elif prazo == 12:
+        perc = 0.15/12
+    else:
+        perc = 0.18/12
+    return perc    
+
+divida = float(input('Digite o valor do financiamento:'))
+while divida != -1:
+    prazo = int(input('Digite a quantidade de parcelas:')) 
+    p = percentual(prazo)
+    prest = prestacao(divida,prazo, p)
+    print("A prestação do seu financiamento é:{0:.2f}".format(prest)) 
+    divida = float(input('Digite o valor do financiamento:'))
+:::
 ---
  #### Exercício 3  
 ---
