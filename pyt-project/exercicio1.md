@@ -119,7 +119,7 @@ $`prestacao=valor financiamento × \frac{(1+taxa)^p × taxa}{(1+taxa)^p  - 1}`$
 <b>*obs: p = número de parcelas</b>
 
 ::: Solução
-
+``` python
 prestacao = lambda finan, prazo, taxa : finan * ((1 + taxa)**prazo * taxa) / ((1 + taxa)**prazo - 1)
 
 def percentual(prazo):
@@ -142,6 +142,7 @@ while divida != -1:
     prest = prestacao(divida,prazo, p)
     print("A prestação do seu financiamento é:{0:.2f}".format(prest)) 
     divida = float(input('Digite o valor do financiamento:'))
+```    
 :::
 ---
  #### Exercício 3  
