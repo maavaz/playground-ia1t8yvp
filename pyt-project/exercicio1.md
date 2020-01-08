@@ -62,7 +62,7 @@ Faça um programa que leia duas notas de um aluno numa turma de 10 alunos. Para 
    0.0 a 4.9  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D     
    5.0 a 6.9  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C     
    7.0 a 8.9  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B     
-   9.0 a 10.0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A     
+   9.0 a 10.0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A     
 
 
 Fazer 2 funções:
