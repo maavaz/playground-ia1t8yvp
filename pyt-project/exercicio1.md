@@ -99,7 +99,7 @@ for i in range(10):
  #### Exercício 2  
 ---
 
-Faça um programa para calcular o valor das parcelas de um financiamento no regime de juros compostos com capitalização mensal. O programa deverá ler o valor do financiamento e o número de parcelas, calcular e exibir o valor da parcela. O programa termina quando o valor do financiamento for igual a zero. Abaixo apresentamos a tabela contendo os prazos de financiamentos e a taxa de juros anual:
+Faça um programa para calcular o valor das parcelas de um financiamento no regime de juros compostos com capitalização mensal para uma quantidade indeterminada de pessoas. O programa deverá ler o valor do financiamento e o número de parcelas, calcular e exibir o valor da parcela. O programa termina quando o valor do financiamento for igual a zero. Abaixo apresentamos a tabela contendo os prazos de financiamentos e a taxa de juros anual:
 
 
 **Prazo**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**taxa a.a.** <p></p>
