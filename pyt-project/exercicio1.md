@@ -54,8 +54,6 @@ _--
  #### Exercício 1  
 ---
 
-Exercício 1
-----
 Faça um programa que leia duas notas de um aluno numa turma de 10 alunos. Para cada aluno, calcular a média ponderadas das notas, sabendo que a <b>nota1</b> tem <b>peso = 4</b> e a <b>nota2</b> tem <b>peso = 6</b>. Imprimir a média do aluno e o conceito final, conforme tabela abaixo:
 
  **Intervalo**   **Conceito** <p></p>
@@ -105,11 +103,11 @@ Faça um programa para calcular o valor das parcelas de um financiamento no regi
 
 
 **Prazo**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**taxa a.a.** <p></p>
-   6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp; 7%    
-  12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp; 10%    
-  18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp; 12%    
-  24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp; 15%    
-  36&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp; 18%    
+   6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7%    
+  12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10%    
+  18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12%    
+  24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15%    
+  36&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18%    
 
 Fazer uma função denominada <b>float financiamento()</b> que deverá receber o valor do financiamento e o número de parcelas, calcular e retornar o valor da prestação. Utilizar a estrutura </>switch ... case</b> apar selecionar a taxa de juros representada em valor decimal. Como a capitalização é mensal, dividir a taxa por 12. 
 A fórmula de cálcula da prestação é: 
