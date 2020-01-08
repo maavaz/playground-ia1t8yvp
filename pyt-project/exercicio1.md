@@ -59,11 +59,11 @@ Exercício 1
 Faça um programa que leia duas notas de um aluno numa turma de 10 alunos. Para cada aluno, calcular a média ponderadas das notas, sabendo que a <b>nota1</b> tem <b>peso = 4</b> e a <b>nota2</b> tem <b>peso = 6</b>. Imprimir a média do aluno e o conceito final, conforme tabela abaixo:
 
  **Intervalo**   **Conceito** 
-
- 0.0 a 4.9        D     
- 5.0 a 6.9        C     
- 7.0 a 8.9        B     
- 9.0 a 10.0       A     
+---
+ 0.0 a 4.9            D     
+ 5.0 a 6.9            C     
+ 7.0 a 8.9            B     
+ 9.0 a 10.0           A     
 
 
 Fazer 2 funções:
