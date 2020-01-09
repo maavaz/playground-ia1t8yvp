@@ -78,3 +78,5 @@ In [22]: lista2
 Out[22]: [7, 8, 9, 10, 11]
 ```
 
+**OBS:** Existem vários outros métodos para manipulação de listas, mas, estes métodos, serão apresentados caso haja necessidade. Do contrário, sugiro fazer uma busca na web sobre o tema.
+
