@@ -12,7 +12,7 @@ A forma geral para se definir uma Lista é:
 nome da lista = [elemento 1, elemento 2, elemento 3, … ]
 ```
 exemplos de criação de listas
-
+``` python
 In [1]: lista = []   #Criando uma Lista vazia
 
 In [2]: lista
@@ -48,4 +48,6 @@ In [9]: nova_lista = ['pedra',lista] # um elemento da lista pode ser outra lista
 
 In [10]: nova_lista
 
-Out[10]: ['pedra', ['O carro', 'peixe', 123, 111]]   
+Out[10]: ['pedra', ['O carro', 'peixe', 123, 111]]  
+```
+
