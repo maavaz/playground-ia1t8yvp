@@ -28,7 +28,9 @@ semana = ['SEG', 'TER', 'QUAR', 'QUI', 'SEX','SAB', 'DOM']
 
 for i in range(len(semana)):
     print(semana[i])
+    
 print('-' * 10)    
+
 for i in semana:
     print(i)
 ```    
