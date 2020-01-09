@@ -118,6 +118,8 @@ $`prestacao=valor financiamento × \frac{(1+taxa)^p × taxa}{(1+taxa)^p  - 1}`$
 
 <b>*obs: p = número de parcelas</b>
 
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor1.sh" })
+
 ::: Solução
 ``` python
 prestacao = lambda finan, prazo, taxa : finan * ((1 + taxa)**prazo * taxa) / ((1 + taxa)**prazo - 1)
