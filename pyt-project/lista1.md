@@ -7,5 +7,11 @@ O primeiro elemento da lista está posicionado sempre na posição 0 (zero) e o 
 
 Exemplos:
 ``` python
+In [1]: semana = ['SEG', 'TER', 'QUAR', 'QUI', 'SEX','SAB', 'DOM']  # Criando a Lista SEMANA
 
+In [2]: semana[3] #Acessando o conteúdo do quarto elemento da lista (índice = 3)
+Out[2]: 'QUI'
+
+In [3]: semana[-4] #Acessando o conteúdo do quarto elemento da lista utilizando o índice negatico (índice = -4)
+Out[3]: 'QUI'
 ```
