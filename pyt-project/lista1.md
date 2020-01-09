@@ -7,7 +7,7 @@ O primeiro elemento da lista está posicionado sempre na posição 0 (zero) e o 
 
 Exemplos:
 ``` python
-In [1]: semana = ['SEG', 'TER', 'QUAR', 'QUI', 'SEX','SAB', 'DOM']  # Criando a Lista SEMANA
+In [1]: semana = ['SEG', 'TER', 'QUA', 'QUI', 'SEX','SAB', 'DOM']  # Criando a Lista SEMANA
 
 In [2]: semana[3] #Acessando o conteúdo do quarto elemento da lista (índice = 3)
 Out[2]: 'QUI'
@@ -24,7 +24,7 @@ Out[4]: 7
 ```
 Podemos percorrer todos os elementos da lista utilizando a estrutura **for**. Isso pode ser feito de 2 maneiras vistas no exemplo abaixo.
 ``` python runnable
-semana = ['SEG', 'TER', 'QUAR', 'QUI', 'SEX','SAB', 'DOM']
+semana = ['SEG', 'TER', 'QUA', 'QUI', 'SEX','SAB', 'DOM']
 
 for i in range(len(semana)):
     print(semana[i])
@@ -34,4 +34,21 @@ print('-' * 10)
 for i in semana:
     print(i)
 ```    
+### Pesquisando itens em uma lista
+Em algumas vezes é preciso verificar se um determinado valor está contido em uma lista. Para isso, utilizamos o operador **in**, que indicará se valor pertence a lista (True), e False caso contrário. A seguir um exemplo de uso desse operador:
+
+```python runnable
+
+x = [0, 1, 2, 3, 4, 5]
+
+if 6 in x:
+   print("O número 6 está na lista")
+else:
+   print("O número 6 não pertence a x")
+   
+semana = ['SEG', 'TER', 'QUA', 'QUI', 'SEX','SAB', 'DOM']   
+
+if "QUA" in semana:
+  print("QUA = Quarta-Feira")
+```   
 
