@@ -40,5 +40,41 @@ In [17]: lista2.append(11)  #incluir o valor 11 ao final da lista2
 In [18]: lista2
 Out[18]: [6, 7, 8, 9, 10, 11]
 ```
-A sintaxe para modificar um elemento é semelhante à sintaxe para acessar
-um elemento de uma lista. Para alterar um elemento, use o nome da lista
+Pode-se querer inserir um elemnto numa posição qualquer da lista, para isso usa-se o método **.insert(posição, valor)**
+```python
+In [8]: lista1 = [0, 1, 2, 3, 4, 5]
+.....
+
+In [17]: lista1.inser(0, -1)  #incluir o valor -1 na primeira posição da lista1
+
+In [18]: lista1
+Out[18]: [-1, 0, 1, 2, 3, 4, 5]
+```
+
+
+#### Modificar itens na lista
+
+Para modificar um elemento é semelhante à sintaxe para acessar um elemento de uma lista. Para alterar um elemento, use o nome da lista seguido do índice do elemento que você quer modificar e, então, forneça o novo valor que você quer que esse item tenha.
+```python
+In [9]: lista2 = [6, 7, 8, 9, 10]
+.....
+
+In [19]: lista2[0] = 12 #Alterando o valor do item na primeira posição de 6 para 12
+
+In [20]: lista2
+Out[20]: [12, 7, 8, 9, 10, 11]
+```
+#### Remover itens na lista
+
+Para remover um elemento utiliza-se o método **.remove(valor)**. Esse valor deve pertencer a lista, do contrário dá erro.
+```python
+In [20]: lista2
+Out[20]: [12, 7, 8, 9, 10, 11]
+
+
+In [21]: lista2.remove(12)  #remove o elemento de valor 12 da lista
+
+In [22]: lista2
+Out[22]: [7, 8, 9, 10, 11]
+```
+
