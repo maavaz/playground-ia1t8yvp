@@ -45,7 +45,7 @@ Pode-se querer inserir um elemnto numa posição qualquer da lista, para isso us
 In [8]: lista1 = [0, 1, 2, 3, 4, 5]
 .....
 
-In [17]: lista1.inser(0, -1)  #incluir o valor -1 na primeira posição da lista1
+In [17]: lista1.insert(0, -1)  #incluir o valor -1 na primeira posição da lista1
 
 In [18]: lista1
 Out[18]: [-1, 0, 1, 2, 3, 4, 5]
