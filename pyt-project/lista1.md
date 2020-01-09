@@ -15,3 +15,21 @@ Out[2]: 'QUI'
 In [3]: semana[-4] #Acessando o conteúdo do quarto elemento da lista utilizando o índice negatico (índice = -4)
 Out[3]: 'QUI'
 ```
+#### Comprimento da Lista
+
+É possível saber o comprimento (número de itens) de uma lista, através da função **len()**, como mostra o exemplo abaixo.
+``` python
+len(semana)
+Out[4]: 7
+```
+Podemos percorrer todos os elementos da lista utilizando a estrutura **for**. Isso pode ser feito de 2 maneiras vistas no exemplo abaixo.
+``` python runnable
+semana = ['SEG', 'TER', 'QUAR', 'QUI', 'SEX','SAB', 'DOM']
+
+for i range(len(semana)):
+    print(i)
+    
+for i in semana:
+    print(i)
+```    
+
