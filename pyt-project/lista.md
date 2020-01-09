@@ -11,11 +11,20 @@ A forma geral para se definir uma Lista é:
 ```
 nome da lista = [elemento 1, elemento 2, elemento 3, … ]
 ```
-O exemplo a seguir cria uma lista, chamada x, de números de 0 a 5 com incrementos de 1:
+exemplos de criação de listas
 
-In[1]: x = [0, 1, 2, 3, 4, 5]
-
-O exemplo a seguir cria uma lista, chamada "semana", com os nomes dos dias da semana.  
-
-In[1]: semana = ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira','Sábado', 'Domingo'] 
-
+In[1]: lista = []   #Criando uma Lista vazia
+In[2]: lista
+Out[2]: []
+In[3]: lista = ['O carro','peixe',123,111] # Os elementos de uma lista não precisam ser do mesmo tipo
+In[4]: lista
+Out[4]: ['O carro', 'peixe', 123, 111]
+In[5]: nova_lista = ['pedra',lista]
+In[6]: nova_lista
+Out[6]: ['pedra', ['O carro', 'peixe', 123, 111]]
+In[7]: semana = ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira','Sábado', 'Domingo'] 
+In[8]: semana
+Out[8]: ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira','Sábado', 'Domingo'] 
+In[9]: In[1]: x = [0, 1, 2, 3, 4, 5] 
+In[10]: x
+Out[10]: [0, 1, 2, 3, 4, 5]
