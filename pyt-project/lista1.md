@@ -27,7 +27,7 @@ Podemos percorrer todos os elementos da lista utilizando a estrutura **for**. Is
 semana = ['SEG', 'TER', 'QUAR', 'QUI', 'SEX','SAB', 'DOM']
 
 for i in range(len(semana)):
-    print(i)
+    print(semana[i])
     
 for i in semana:
     print(i)
