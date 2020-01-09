@@ -26,7 +26,7 @@ Podemos percorrer todos os elementos da lista utilizando a estrutura **for**. Is
 ``` python runnable
 semana = ['SEG', 'TER', 'QUAR', 'QUI', 'SEX','SAB', 'DOM']
 
-for i range(len(semana)):
+for i in range(len(semana)):
     print(i)
     
 for i in semana:
