@@ -11,6 +11,16 @@ Essa operação permite delimitar os limites inferior e superior do pedaço da l
 ```
 Exemplos:
 ``` python
+In [1]: semana = ['SEG', 'TER', 'QUA', 'QUI', 'SEX','SAB', 'DOM']
 
+In [2]: fat = semana[1:4] # Fatiamento inclui apenas os índices de 1 até 3
+
+In [3]: fat
+Out[3]: ['TER', 'QUA', 'QUI']
+
+In [4]: fat = semana[:4] # Ausência do Limite Inferior indica fatiamento a partir do primeiro elemento 
+
+In [5]: fat
+Out[5]: ['SEG', 'TER', 'QUA', 'QUI']
 ```
  
