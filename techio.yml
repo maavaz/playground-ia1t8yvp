@@ -20,6 +20,8 @@ plan:
   plan:     
   - title: Listas
     statement: /pyt-project/lista.md    
+  - title: Manipulando as Listas
+    statement: /pyt-project/lista1.md   
       
 projects:
   pyt:
