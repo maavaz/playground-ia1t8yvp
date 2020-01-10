@@ -72,10 +72,12 @@ for t in range(len(tempano)):
 ---
 #### Exercício 2
 Quatro candidatos foram para o segundo turno nas eleições para presidente de um país da America do Sul:
+
     1 - Candidato A, 2 - Candidato B, 3 - Candidato C, 4 - Candidato D. 
+
 Faça um programa que receba os votos dos eleitores(final da votação voto = -1) e ao final exiba a quantidade de votos e o percentual que cada canditado obteve e qual candidato foi declarado vencedor (maioria simples). 
     
-Obs: para realizar a soma total dos votos dos candidatos utilize a função sum(lista).
+Obs: para realizar a soma total dos votos dos candidatos utilize a função sum(lista). Utilize a função sum(lista) para selecionar o maior valor de uma lista
 Obs1: O primeiro índice da lista é zero e, para compatibilizá-lo ao número do candidato subtraia 1 unidade.
     
 ::: Solução
