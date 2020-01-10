@@ -36,5 +36,10 @@ print(b)
 -[x] [1, 3, 5, 7, 9, 2, 4, 6, 8]
 -[ ] [9, 8, 7, 6, 5, 4, 3, 2, 1]]
 -[ ] Erro de Sintaxe!!! 
+---
 
+#### Exercício 1
+---
 Faça um programa que receba a temperatura média de cada mês do ano e armazene-as em uma lista. Após isto, calcule a média anual das temperaturas e mostre todas as temperaturas acima da média anual, e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro, . . . ).
+Faça uma função local que retorne o mês por extenso (Criar uma lista de meses do ano). atributo de entrada: valor inteiro correspondente ao índice da lista do mês solicitado; atributo de saída: Mês por extenso.
+
