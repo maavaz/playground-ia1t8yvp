@@ -42,4 +42,5 @@ print(b)
 ---
 Faça um programa que receba a temperatura média de cada mês do ano e armazene-as em uma lista. Após isto, calcule a média anual das temperaturas e mostre todas as temperaturas acima da média anual, e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro, . . . ).
 Faça uma função local que retorne o mês por extenso (Criar uma lista de meses do ano). atributo de entrada: valor inteiro correspondente ao índice da lista do mês solicitado; atributo de saída: Mês por extenso.
+OBS: Utilize as funções sum(lista) e len(lista) para o cálcula da média
 
