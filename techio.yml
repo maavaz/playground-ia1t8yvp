@@ -26,7 +26,9 @@ plan:
     statement: /pyt-project/lista2.md   
   - title: Fatiamento (slicing)
     statement: /pyt-project/lista3.md   
-      
+  - title: Exercitando
+    statement: /pyt-project/lista4.md
+    
 projects:
   pyt:
     root: /pyt-project
