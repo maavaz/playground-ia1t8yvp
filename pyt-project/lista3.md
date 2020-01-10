@@ -23,12 +23,21 @@ In [4]: fat = semana[:4] # Ausência do Limite Inferior indica fatiamento a part
 In [5]: fat
 Out[5]: ['SEG', 'TER', 'QUA', 'QUI']
 
-In [8]: semana[-4:-1] # Índices negativos 
+In [8]: semana[-4:-1] # Índices negativos. O item da última posição (-1) não é exibido
 Out[8]: ['QUI', 'SEX', 'SAB']
 
-In [9]: semana[-7:]  ## Índices negativos 
-Out[9]: ['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB', 'DOM']
+In [9]: semana[-4:]  ## Índices negativos. Nesse caso a última posição (-1) é exibida.
+Out[9]: ['QUI', 'SEX', 'SAB', 'DOM']
 
 In [10]: semana[-5:]
 Out[10]: ['QUA', 'QUI', 'SEX', 'SAB', 'DOM']
+```
+Pode-se especificar o passo a ser somado ao índice para recuperação dos elementos. Forma geral:
+```
+                     Lista[inferior:superior:passo]
+```
+Exemplo:
+```
+In [12]: semana[1:6:2]  # Exibe os elementos de 2 em 2 a partir do índice 1 (índices: 1, 3, 5).
+Out[12]: ['TER', 'QUI', 'SAB']
 ```
