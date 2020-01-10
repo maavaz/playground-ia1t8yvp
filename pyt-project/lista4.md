@@ -75,7 +75,7 @@ Quatro candidatos foram para o segundo turno nas eleições para presidente de u
 
     1 - Candidato A  2 - Candidato B  3 - Candidato C  4 - Candidato D. 
 
-Faça um programa que receba os votos dos eleitores(final da votação voto = -1), compute os votos dos candidatos e exiba a quantidade de votos e o percentual que cada canditado obteve e qual candidato foi declarado vencedor (maioria simples). 
+Faça um programa que receba os votos dos eleitores(número do candidato), compute os votos dos candidatos e exiba a quantidade de votos e o percentual que cada canditado obteve e qual candidato foi declarado vencedor (maioria simples). A votação termina quando for digitado o valor -1 para número do canditado. 
     
 Obs: para realizar a soma total dos votos dos candidatos utilize a função sum(lista). Utilize a função sum(lista) para selecionar o maior valor de uma lista.
 
