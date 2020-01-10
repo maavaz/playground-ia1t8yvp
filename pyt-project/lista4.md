@@ -26,4 +26,15 @@ print(lista)
 -[ ] ['a', 'a', 'a', 'a', 'a', 'b', 'b', 'b', 'b', 'b']
 -[ ] ['ababababab']
 
+``` python
+a=[1,2,3,4,5,6,7,8,9]
+b = a[::2] + a[1::2]
+print(b)
+```
+?[Ao executar o trecho de código acima, o que será exibido? ]
+-[ ] [2, 1, 2] 
+-[x] [1, 3, 5, 7, 9, 2, 4, 6, 8]
+-[ ] [9, 8, 7, 6, 5, 4, 3, 2, 1]]
+-[ ] Erro de Sintaxe!!! 
+
 Faça um programa que receba a temperatura média de cada mês do ano e armazene-as em uma lista. Após isto, calcule a média anual das temperaturas e mostre todas as temperaturas acima da média anual, e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro, . . . ).
