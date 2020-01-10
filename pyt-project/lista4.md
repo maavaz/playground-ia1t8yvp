@@ -41,6 +41,32 @@ print(b)
 #### Exercício 1
 ---
 Faça um programa que receba a temperatura média de cada mês do ano e armazene-as em uma lista. Após isto, calcule a média anual das temperaturas e mostre todas as temperaturas acima da média anual, e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro, . . . ).
-Faça uma função local que retorne o mês por extenso (Criar uma lista de meses do ano). atributo de entrada: valor inteiro correspondente ao índice da lista do mês solicitado; atributo de saída: Mês por extenso.
+
++ Faça uma função local que retorne o mês por extenso (Criar uma lista de meses do ano). atributo de entrada: valor inteiro correspondente ao índice da lista do mês solicitado; atributo de saída: Mês por extenso.
+
++ Faça uma função lambda que calcule a média das temperaturas anuais. Atributo de entrada: Lista de temperaturas.
+
 OBS: Utilize as funções sum(lista) e len(lista) para o cálcula da média
+
+::: Solução
+``` python
+def extenso(ind):
+    meses = ['Janeiro', 'Fevereiro','Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+    return meses[ind]
+
+media = lambda x: sum(x)/len(x)
+
+tempano = [] #criar a lista de temperaturas anual vazia
+for i in range(12):
+    temp = float(input('Digite a temperatura do mês:'))
+    tempano.append(temp) 
+
+mediano = media(tempano)
+
+for t in range(len(tempano)):
+    if tempano[t] > mediano:
+        mes = extenso(t)
+        print('temperatura {0:.2f} maior que a média anual {1:.2f} ocorrida no mês: {2}'.format(tempano[t], mediano, mes))
+```
+
 
