@@ -68,7 +68,8 @@ for t in range(len(tempano)):
         mes = extenso(t)
         print('temperatura {0:.2f} maior que a média anual {1:.2f} ocorrida no mês: {2}'.format(tempano[t], mediano, mes))
 ```
-
+:::
+---
 #### Exercício 2
 Quatro candidatos foram para o segundo turno nas eleições para presidente de um país da America do Sul:
     1 - Candidato A, 2 - Candidato B, 3 - Candidato C, 4 - Candidato D. 
