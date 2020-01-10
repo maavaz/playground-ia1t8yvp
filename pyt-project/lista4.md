@@ -69,4 +69,35 @@ for t in range(len(tempano)):
         print('temperatura {0:.2f} maior que a média anual {1:.2f} ocorrida no mês: {2}'.format(tempano[t], mediano, mes))
 ```
 
+#### Exercício 2
+Quatro candidatos foram para o segundo turno nas eleições para presidente de um país da America do Sul:
+    1 - Candidato A, 2 - Candidato B, 3 - Candidato C, 4 - Candidato D. 
+Faça um programa que receba os votos dos eleitores(final da votação voto = -1) e ao final exiba a quantidade de votos e o percentual que cada canditado obteve e qual candidato foi declarado vencedor (maioria simples). 
+    
+Obs: para realizar a soma total dos votos dos candidatos utilize a função sum(lista).
+Obs1: O primeiro índice da lista é zero e, para compatibilizá-lo ao número do candidato subtraia 1 unidade.
+    
+::: Solução
+``` python
+totais = [0,0,0,0]
+candidatos =['Candidato A', 'Candidato B', 'Candidato C', 'Candidato D']
 
+print('1 - Candidato A \n2 - Candidato B\n3 - Candidato C\n4 - Candidato D\n')
+voto = int(input('Digite o número do Candidato:'))
+while voto != -1:
+    totais[voto-1] += 1                              #voto -1 serve para compatibilizar a posição do candidato na lista
+    print('1 - Candidato A \n2 - Candidato B\n3 - Candidato C\n4 - Candidato D\n')
+    voto = int(input('Digite o número do Candidato:'))
+
+totalvotos = sum(totais)                             # função sum(lista) soma os valores dos itens da lista
+vencedor = max(totais)                               # função max(lista) retorna o maior valor da lista 
+
+for i in range(len(totais)):
+    perc = totais[i]/totalvotos * 100
+    print('\nCandidato: {0}\nvotos: {1}\nPercentual:{2:.2f}%'.format(candidatos[i],totais[i], perc))
+    if vencedor == totais[i]:
+        v = i
+
+print('\n\nO candidato', candidatos[v], ' foi eleito PRESIDENTE')
+```
+:::
