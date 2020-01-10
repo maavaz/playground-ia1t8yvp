@@ -48,6 +48,8 @@ Faça um programa que receba a temperatura média de cada mês do ano e armazene
 
 OBS: Utilize as funções sum(lista) e len(lista) para o cálcula da média
 
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor2.sh" })
+
 ::: Solução
 ``` python
 def extenso(ind):
@@ -80,6 +82,8 @@ Faça um programa que receba os votos dos eleitores(número do candidato), compu
 Obs: para realizar a soma total dos votos dos candidatos utilize a função sum(lista). Utilize a função sum(lista) para selecionar o maior valor de uma lista.
 
 Obs1: O primeiro índice da lista é zero e, para compatibilizá-lo ao número do candidato subtraia 1 unidade.
+
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor3.sh" })
     
 ::: Solução
 ``` python
