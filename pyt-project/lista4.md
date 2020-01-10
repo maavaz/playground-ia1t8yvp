@@ -73,7 +73,7 @@ for t in range(len(tempano)):
 #### Exercício 2
 Quatro candidatos foram para o segundo turno nas eleições para presidente de um país da America do Sul:
 
-    1 - Candidato A, 2 - Candidato B, 3 - Candidato C, 4 - Candidato D. 
+    1 - Candidato A  2 - Candidato B  3 - Candidato C  4 - Candidato D. 
 
 Faça um programa que receba os votos dos eleitores(final da votação voto = -1), compute os votos dos candidatos e exiba a quantidade de votos e o percentual que cada canditado obteve e qual candidato foi declarado vencedor (maioria simples). 
     
