@@ -22,5 +22,13 @@ In [4]: fat = semana[:4] # Ausência do Limite Inferior indica fatiamento a part
 
 In [5]: fat
 Out[5]: ['SEG', 'TER', 'QUA', 'QUI']
+
+In [8]: semana[-4:-1] # Índices negativos 
+Out[8]: ['QUI', 'SEX', 'SAB']
+
+In [9]: semana[-7:]  ## Índices negativos 
+Out[9]: ['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB', 'DOM']
+
+In [10]: semana[-5:]
+Out[10]: ['QUA', 'QUI', 'SEX', 'SAB', 'DOM']
 ```
- 
