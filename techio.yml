@@ -28,6 +28,8 @@ plan:
     statement: /pyt-project/lista3.md   
   - title: Exercitando
     statement: /pyt-project/lista4.md
+  - title: Listas e Strings
+    statement: /pyt-project/lista5.md   
     
 projects:
   pyt:
