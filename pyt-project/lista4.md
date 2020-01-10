@@ -2,15 +2,15 @@
 
 ``` python
 cores = ['Verde', 'Vermelho', 'Branco', 'Preto', 'Azul', 'Amarelo']
-fluminense = ['Verde', 'Vermelho', 'Branca']
+
 ```
-?[Dada a lista cor acima, utilizando a técnica de slice que opção abaixo irá gerar a lista fluminense]
+?[Dada a lista "cores" acima, utilizando a técnica de slice que opção abaixo irá gerar a lista fluminense - ('Verde', 'Vermelho', 'Branco')]
 -[ ] cores[ :4]
 -[ ] cores[1:3]
 -[x] cores[ :3]
 -[ ] cores[-3:-1]
 
-?[Ainda com relação a lista cor, que opção abaixo irá permitir gerar a lista flamengo - ('Vermelho', 'Preto')]
+?[Ainda com relação a lista "cores", que opção abaixo irá gerar a lista flamengo - ('Vermelho', 'Preto')]
 -[ ] cores[ :3:2]
 -[x] cores[1:5:2]
 -[ ] cores[1:6:2]
