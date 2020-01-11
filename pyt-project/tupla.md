@@ -1,13 +1,7 @@
 # Tuplas
 
-Do ponto de vista técnico, as listas funcionam bem para armazenar conjuntos de itens que podem sofrer alterações durante a vida de um programa, isto é, são mutáveis. A capacidade de modificar listas é
-particularmente importante quando trabalhamos com uma lista de
-usuários em um site ou com uma lista de personagens em um jogo. No
-entanto, às vezes, você vai querer criar uma lista de itens que não poderá
-mudar. As tuplas permitir fazer exatamente isso. Python refere-se a valores
-que não podem mudar como imutáveis, e uma lista imutável é chamada de
-tupla.
-Do ponto de vista técnico em Python uma tupla é imutável e uma lista é mutável.
+Do ponto de vista técnico, as listas funcionam bem para armazenar conjuntos de itens que podem sofrer alterações durante a vida de um programa, isto é, são mutáveis.Por outro lado, há situações que não gostaríamos que os valores de uma determinada lista fossem alterados. O python possui uma lista onde os valores armazenados são imutáveis, denominada de **Tuplas**.
+
 Do ponto de vista conceitual você deveria usar tuplas para montar estruturas de dados heterogêneos enquanto a lista deveria ser usada para dados homogêneos, ou seja, todos seus elementos deveriam ser do mesmo tipo.
 Como Python é uma linguagem dinâmica isto não pode ser garantido, cabe ao programador decidir fazer isto.
 Por ser usado para dados heterogêneos (diversidade de tipos entre os membros) a tupla normalmente possui poucos elementos mas nada impede que tenha muitos. Tuplas frequentemente são usadas para simular classes que não precisam ser definidas, cujo uso é mais efêmero e não depende de contratos mais específicos.
