@@ -30,7 +30,8 @@ plan:
     statement: /pyt-project/lista4.md
   - title: Listas e Strings
     statement: /pyt-project/lista5.md   
-    
+  - title: Tuplas
+    statement: /pyt-project/tupla.md     
 projects:
   pyt:
     root: /pyt-project
