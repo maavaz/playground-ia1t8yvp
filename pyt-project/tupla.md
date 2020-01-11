@@ -50,6 +50,13 @@ In [7]: for al in alunos:      # Loop na Tupla alunos
 (1111, 'Ana', 'Rua x')
 (2222, 'Marco', 'Rua Y')
 (3333, 'Pedro', 'Rua Z')
+
+In [8]: for mat, nome, ender in alunos:    # Loop na Tupla alunos individualizando os itens
+    ...:     print(mat, nome,ender)
+    ...:     
+1111 Ana Rua x
+2222 Marco Rua Y
+3333 Pedro Rua Z
 ```
 
  
