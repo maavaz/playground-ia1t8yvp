@@ -18,6 +18,22 @@ In [4]: z[2:]           # Fatiamento da Tupla
 Out[4]: (3, 4, 5)
 
 ```
+Pode-se declarar uma tupla sem o uso de parenteses, como no exemplo abaixo:
+``` python
+In [10]: t = 1,2,3,4
+
+In [11]: t
+Out[11]: (1, 2, 3, 4)
+```
+Outra forma de criar uma tupla é com a função integrada **tuple**, com apenas 1 argumento. Se você quiser criar uma tupla contendo letras do alfabeto poderíamos usar **tuple** com uma string:
+``` python
+In [14]: z = tuple("ABCDEFGH")
+
+In [15]: z
+Out[15]: ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H')
+```
+
+
 Do ponto de vista conceitual poderíamos usar as tuplas para montar estruturas de dados heterogêneos enquanto a lista deveria ser usada para dados homogêneos, ou seja, todos seus elementos deveriam ser do mesmo tipo. Claro que cabe ao programador essa decisão.  Pode-se utiliar as tuplas para dados heterogêneos (diversidade de tipos entre os membros) funcionando como um registro de dados, como uma linha de um banco de dados, um conjunto de colunas.  
 ``` python
 In [1]: alunos = ((1111, 'Ana', 'Rua x'),(2222, 'Marco', 'Rua Y'), (3333, 'Pedro', 'Rua Z'))
