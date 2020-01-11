@@ -58,7 +58,53 @@ In [8]: for mat, nome, ender in alunos:    # Loop na Tupla alunos individualizan
 2222 Marco Rua Y
 3333 Pedro Rua Z
 ```
+### Atribuições de Tuplas
 
+De vez em quando, é necessário trocar entre si os valores de duas variáveis. Com operações de atribuição convencionais, temos que utilizar uma variável temporária. Por exemplo, para fazer a troca entre a e b:
+```python
+In [21]: a = 5
+
+In [22]: b = 6
+
+In [23]: temp = a
+
+In [24]: a = b
+
+In [25]: b = temp
+
+In [26]: a
+Out[26]: 6
+
+In [27]: b
+Out[27]: 5
+```
+O Python fornece uma forma de atribuição de tupla que resolve esse problema elegantemente:
+
+``` python
+In [21]: a = 5
+
+In [22]: b = 6
+
+In [23]: a,b =b,a
+
+In [24]: a
+Out[24]: 6
+
+In [25]: b
+Out[25]: 5
+
+In [26]: a =(5,6)
+
+In [27]: b =(7,8)
+
+In [28]: a,b = b,a
+
+In [29]: a
+Out[29]: (7, 8)
+
+In [30]: b
+Out[30]: (5, 6)
+```
  
 
 
