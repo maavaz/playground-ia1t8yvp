@@ -5,7 +5,7 @@
 - [X] print(y[3] + ' ' + y[1] + ' ' + x[3])
 - [ ] print(y[3] + y[2] + x[2])
 
-?[Parece uma Listam mas seus elementos são fixos.Qual das opções abaixo apresenta o nome da estrutura?]
+?[Parece uma Lista mas seus elementos são fixos.Qual das opções abaixo apresenta o nome da estrutura?]
 - [ ] Set
 - [x] Tupla
 - [ ] Dicionário
