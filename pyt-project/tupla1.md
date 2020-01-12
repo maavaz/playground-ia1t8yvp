@@ -41,13 +41,13 @@ Empresa&nbsp;&nbsp;&nbsp;&nbsp;Uso do espaço em disco pelos usuários<br>
 ------------------------------------------------------------------------<br>
 Nr.&nbsp;&nbsp;&nbsp;&nbsp;Usuário&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Espaço utilizado&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;% do uso <br>
 
-1&nbsp;&nbsp;&nbsp;&nbsp;alexandre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;434,99 MB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16,85%<br>
-2&nbsp;&nbsp;&nbsp;&nbsp;anderson&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1187,99 MB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;46,02%<br>
-3&nbsp;&nbsp;&nbsp;&nbsp;antonio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;117,73 MB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4,56%<br>
-4&nbsp;&nbsp;&nbsp;&nbsp;carlos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;87,03 MB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3,37%<br>
-5&nbsp;&nbsp;&nbsp;&nbsp;cesar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0,94 MB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0,04%<br>
-6&nbsp;&nbsp;&nbsp;&nbsp;rosemary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;752,88 MB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;29,16%<br>
+1&nbsp;&nbsp;&nbsp;&nbsp;alexandre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;434,99 MB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16,85%<br>
+2&nbsp;&nbsp;&nbsp;&nbsp;anderson&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1187,99 MB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;46,02%<br>
+3&nbsp;&nbsp;&nbsp;&nbsp;antonio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;117,73 MB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4,56%<br>
+4&nbsp;&nbsp;&nbsp;&nbsp;carlos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;87,03 MB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3,37%<br>
+5&nbsp;&nbsp;&nbsp;&nbsp;cesar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0,94 MB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0,04%<br>
+6&nbsp;&nbsp;&nbsp;&nbsp;rosemary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;752,88 MB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;29,16%<br>
 <br>
 Espaço total ocupado: 2581,57 MB<br>
-Espaço médio ocupado: 430,26 MB
+Espaço médio ocupado: 430,26 MB<br>
 O arquivo de entrada deve ser lido uma única vez, e os dados armazenados em memória, caso sejam necessários, de forma a agilizar a execução do programa. A conversão do espaço ocupado em disco, de bytes para megabytes deverá ser feita através de uma função separada, que será chamada pelo programa principal. O cálculo do percentual de uso também deverá ser feito através de uma função, que será chamada pelo programa principal.
