@@ -19,11 +19,11 @@ A seguir é apresentado o Menu da lanchonete:
 <br>
 Codigo&nbsp;&nbsp;&nbsp;Sanduíche&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preço <br>
 100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hamburger&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 12,00<br>
-200&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cheeseburger&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 15,00<br>
-300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duplo cheeseburger&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 20,00<br>
+200&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cheeseburger&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 15,00<br>
+300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duplo Cheeseburger&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 20,00<br>
 400&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cheeseFrango&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 18,00<br>
 500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hot Linguiça&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 19,00<br>
-
+Fazer uma função que retorna o nome e o preço unitário do sanduiche escolhido. Entrada da função: Código do Sanduíche. Saída: Uma tupla contendo o nome e o preço unitário (faça uma pesquisa como retornar uma tupla de função). A funçã deverá ter a tabela contendo o menu (cada item da tabela é uma tupla com código sanduiche e preço).
 
 ---
 #### Exercício 2
