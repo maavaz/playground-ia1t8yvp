@@ -29,25 +29,25 @@ Codigo&nbsp;&nbsp;&nbsp;Sanduíche&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 ---
 #### Exercício 2
 ---
-A ACME Inc., uma empresa de 500 funcionários, está tendo problemas de espaço em disco no seu servidor de arquivos. Para tentar resolver este problema, o Administrador de Rede precisa saber qual o espaço ocupado pelos usuários, e identificar os usuários com maior espaço ocupado. Através de um programa, baixado da Internet, ele conseguiu gerar o seguinte arquivo, chamado "usuarios.txt":
-alexandre       456123789
-anderson        1245698456
-antonio         123456456
-carlos          91257581
-cesar           987458
-rosemary        789456125
-Neste arquivo, o nome do usuário possui 15 caracteres. A partir deste arquivo, você deve criar um programa que gere um relatório, chamado "relatório.txt", no seguinte formato:
-ACME Inc.               Uso do espaço em disco pelos usuários
-------------------------------------------------------------------------
-Nr.  Usuário        Espaço utilizado     % do uso
+faça um programa para ajudar o administrador de Rede de uma empresa que precisa saber qual o espaço em disco ocupado pelos arquivos dos usuários, e identificar os usuários com maior espaço ocupado. A entrada do programa é a lista abaixo onde cada linha possui o nome do usuário e o total (em bytes) ocupado pelos arquivos:<br>
+alexandre&nbsp;&nbsp;&nbsp;&nbsp;456123789<br>
+anderson&nbsp;&nbsp;&nbsp;&nbsp;1245698456<br>
+antonio&nbsp;&nbsp;&nbsp;&nbsp;123456456<br>
+carlos&nbsp;&nbsp;&nbsp;&nbsp;91257581<br>
+cesar&nbsp;&nbsp;&nbsp;&nbsp;987458<br>
+rosemary&nbsp;&nbsp;&nbsp;&nbsp;789456125<br>
+A partir desta lista de entrada, você deve criar um programa que gere um relatórioabaixo, no seguinte formato:<br>
+Empresa&nbsp;&nbsp;&nbsp;&nbsp;Uso do espaço em disco pelos usuários<br>
+------------------------------------------------------------------------<br>
+Nr.&nbsp;&nbsp;&nbsp;&nbsp;Usuário&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Espaço utilizado&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;% do uso <br>
 
-1    alexandre       434,99 MB             16,85%
-2    anderson       1187,99 MB             46,02%
-3    antonio         117,73 MB              4,56%
-4    carlos           87,03 MB              3,37%
-5    cesar             0,94 MB              0,04%
-6    rosemary        752,88 MB             29,16%
-
-Espaço total ocupado: 2581,57 MB
+1&nbsp;&nbsp;&nbsp;&nbsp;alexandre&nbsp;&nbsp;&nbsp;&nbsp;434,99 MB&nbsp;&nbsp;&nbsp;&nbsp;16,85%<br>
+2&nbsp;&nbsp;&nbsp;&nbsp;anderson&nbsp;&nbsp;&nbsp;&nbsp;1187,99 MB&nbsp;&nbsp;&nbsp;&nbsp;46,02%<br>
+3&nbsp;&nbsp;&nbsp;&nbsp;antonio&nbsp;&nbsp;&nbsp;&nbsp;117,73 MB&nbsp;&nbsp;&nbsp;&nbsp;4,56%<br>
+4vcarlos&nbsp;&nbsp;&nbsp;&nbsp;87,03 MB&nbsp;&nbsp;&nbsp;&nbsp;3,37%<br>
+5&nbsp;&nbsp;&nbsp;&nbsp;cesar&nbsp;&nbsp;&nbsp;&nbsp;0,94 MB&nbsp;&nbsp;&nbsp;&nbsp;0,04%<br>
+6&nbsp;&nbsp;&nbsp;&nbsp;rosemaryv752,88 MB&nbsp;&nbsp;&nbsp;&nbsp;29,16%<br>
+<br>
+Espaço total ocupado: 2581,57 MB<br>
 Espaço médio ocupado: 430,26 MB
 O arquivo de entrada deve ser lido uma única vez, e os dados armazenados em memória, caso sejam necessários, de forma a agilizar a execução do programa. A conversão do espaço ocupado em disco, de bytes para megabytes deverá ser feita através de uma função separada, que será chamada pelo programa principal. O cálculo do percentual de uso também deverá ser feito através de uma função, que será chamada pelo programa principal.
