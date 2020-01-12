@@ -17,10 +17,9 @@ Faça um programa para calcular o valor pago nos pedidos de uma lanchonete. Para
 dos sanduiches e as  respectivas quantidades. Calcule e mostre o nome do sanduiche valor unitario, quantidade e o valor a ser pago pelo item  e o total geral do pedido.
 O programa termina quando o código do sanduiche for igual a 0 (zero).
 A seguir é apresentado o Menu da lanchonete:
-
-Codigo   Sanduíche          Preço
-
-100      Hamburger         R$ 12,00
+<br>
+Codigo&nbsp&nbsp&nbspSanduíche&nbsp&nbsp&nbspPreço <br>
+100&nbsp&nbsp&nbspHamburger&nbsp&nbsp&nbspR$ 12,00<br>
 200     cheeseburger       R$ 15,00
 300   Duplo cheeseburger   R$ 20,00
 400     cheeseFrango       R$ 18,00
