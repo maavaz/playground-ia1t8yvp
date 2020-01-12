@@ -32,10 +32,10 @@ Codigo&nbsp;&nbsp;&nbsp;Sanduíche&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 faça um programa para ajudar o administrador de Rede de uma empresa que precisa saber qual o espaço em disco ocupado pelos arquivos dos usuários, e identificar os usuários com maior espaço ocupado. A entrada do programa é a lista abaixo onde cada linha possui o nome do usuário e o total (em bytes) ocupado pelos arquivos:<br>
 alexandre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;456123789<br>
 anderson&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1245698456<br>
-antonio&nbsp;&nbsp;&nbsp;&nbsp;123456456<br>
-carlos&nbsp;&nbsp;&nbsp;&nbsp;91257581<br>
-cesar&nbsp;&nbsp;&nbsp;&nbsp;987458<br>
-rosemary&nbsp;&nbsp;&nbsp;&nbsp;789456125<br>
+antonio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;123456456<br>
+carlos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;91257581<br>
+cesar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;987458<br>
+rosemary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;789456125<br>
 A partir desta lista de entrada, você deve criar um programa que gere um relatórioabaixo, no seguinte formato:<br>
 Empresa&nbsp;&nbsp;&nbsp;&nbsp;Uso do espaço em disco pelos usuários<br>
 ------------------------------------------------------------------------<br>
