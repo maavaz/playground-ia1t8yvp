@@ -44,8 +44,8 @@ Nr.&nbsp;&nbsp;&nbsp;&nbsp;Usuário&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 1&nbsp;&nbsp;&nbsp;&nbsp;alexandre&nbsp;&nbsp;&nbsp;&nbsp;434,99 MB&nbsp;&nbsp;&nbsp;&nbsp;16,85%<br>
 2&nbsp;&nbsp;&nbsp;&nbsp;anderson&nbsp;&nbsp;&nbsp;&nbsp;1187,99 MB&nbsp;&nbsp;&nbsp;&nbsp;46,02%<br>
 3&nbsp;&nbsp;&nbsp;&nbsp;antonio&nbsp;&nbsp;&nbsp;&nbsp;117,73 MB&nbsp;&nbsp;&nbsp;&nbsp;4,56%<br>
-4vcarlos&nbsp;&nbsp;&nbsp;&nbsp;87,03 MB&nbsp;&nbsp;&nbsp;&nbsp;3,37%<br>
-5&nbsp;&nbsp;&nbsp;&nbsp;cesar&nbsp;&nbsp;&nbsp;&nbsp;0,94 MB&nbsp;&nbsp;&nbsp;&nbsp;0,04%<br>
+4vcarlos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;87,03 MB&nbsp;&nbsp;&nbsp;&nbsp;3,37%<br>
+5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cesar&nbsp;&nbsp;&nbsp;&nbsp;0,94 MB&nbsp;&nbsp;&nbsp;&nbsp;0,04%<br>
 6&nbsp;&nbsp;&nbsp;&nbsp;rosemaryv752,88 MB&nbsp;&nbsp;&nbsp;&nbsp;29,16%<br>
 <br>
 Espaço total ocupado: 2581,57 MB<br>
