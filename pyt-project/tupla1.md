@@ -17,7 +17,9 @@ Faça um programa para calcular o valor pago nos pedidos de uma lanchonete. Para
 dos sanduiches e as  respectivas quantidades. Calcule e mostre o nome do sanduiche valor unitario, quantidade e o valor a ser pago pelo item  e o total geral do pedido.
 O programa termina quando o código do sanduiche for igual a 0 (zero).
 A seguir é apresentado o Menu da lanchonete:
+
 Codigo   Sanduíche          Preço
+
 100      Hamburger         R$ 12,00
 200     cheeseburger       R$ 15,00
 300   Duplo cheeseburger   R$ 20,00
@@ -25,7 +27,7 @@ Codigo   Sanduíche          Preço
 500     Hot Linguiça       R$ 19,00
 
 
-
+---
 #### Exercício 2
 ---
 A ACME Inc., uma empresa de 500 funcionários, está tendo problemas de espaço em disco no seu servidor de arquivos. Para tentar resolver este problema, o Administrador de Rede precisa saber qual o espaço ocupado pelos usuários, e identificar os usuários com maior espaço ocupado. Através de um programa, baixado da Internet, ele conseguiu gerar o seguinte arquivo, chamado "usuarios.txt":
