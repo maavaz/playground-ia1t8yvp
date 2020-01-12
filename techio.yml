@@ -33,9 +33,7 @@ plan:
   - title: Tuplas
     statement: /pyt-project/tupla.md     
   - title: Exercitando
-    statement: /pyt-project/tupla1.md  
-  - title: Exercitando
-    statement: /pyt-project/tupla2.md        
+    statement: /pyt-project/tupla1.md     
     
 projects:
   pyt:
