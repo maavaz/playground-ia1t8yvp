@@ -112,7 +112,10 @@ for i in range(len(usuar)):
    mega = converte(bytes)
    perc = percentual(bytes,soma)
    
-   print('{0}      {1}             {2:.2f}                 {3:.2f}%'.format(i+1,str, mega, perc))                    
+   print('{0}      {1}             {2:.2f}                 {3:.2f}%'.format(i+1,str, mega, perc))   
+   
+print('\nEspaço total ocupado: {0:.2f} MB'.format(converte(soma)))  
+print('Espaço médio ocupado: {0:.2f} MB'.format(converte(soma)/(i+1)))
 
 ```
 :::
