@@ -50,4 +50,4 @@ Nr.&nbsp;&nbsp;&nbsp;&nbsp;Usuário&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 <br>
 Espaço total ocupado: 2581,57 MB<br>
 Espaço médio ocupado: 430,26 MB<br>
-Os dados de entrada devem ser lidos e armazenados em memória, caso sejam necessários, de forma a agilizar a execução do programa. A conversão do espaço ocupado em disco, de bytes para megabytes deverá ser feita através de uma função separada, que será chamada pelo programa principal. O cálculo do percentual de uso também deverá ser feito através de uma função, que será chamada pelo programa principal.
+Os dados de entrada devem ser lidos e armazenados em memória, caso sejam necessários, de forma a agilizar a execução do programa. A conversão do espaço ocupado em disco, de bytes para megabytes (1 Mb = 2<sup>20</sup> bytes) deverá ser feita através de uma função separada, que será chamada pelo programa principal. O cálculo do percentual de uso também deverá ser feito através de uma função, que será chamada pelo programa principal.
