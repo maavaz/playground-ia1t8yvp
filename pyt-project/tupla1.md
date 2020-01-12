@@ -90,7 +90,29 @@ Os dados de entrada devem ser lidos e armazenados em memória, caso sejam necess
 
 ::: Solução
 ``` python
+converte = lambda x: x/2**20
 
+percentual = lambda x,y: x/y*100
+
+usuar=[]
+for i in range(6):
+    nome = input('Digite o Nome do usuário:')
+    esp = int(input('Digite a quantidade de bytes usados:'))
+    usuar.append((nome,esp))
+
+soma = sum(b for a, b in usuar)
+
+print('Empresa    Uso do espaço em disco pelos usuários')
+print('------------------------------------------------------------------------')
+print('Nr.    Usuário                    Espaço utilizado           % do uso')
+for i in range(len(usuar)):
+   bytes = usuar[i][1]     #Notação para o campo bytes da tupla na lista. O primeiro índice
+                       # é da lista e o segundo da tupla
+   str = usuar[i][0] + (24 - len(usuar[i][0])) * " "                   
+   mega = converte(bytes)
+   perc = percentual(bytes,soma)
+   
+   print('{0}      {1}             {2:.2f}                 {3:.2f}%'.format(i+1,str, mega, perc))                    
 
 ```
 :::
