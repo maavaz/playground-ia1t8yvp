@@ -33,8 +33,8 @@ faça um programa para ajudar o administrador de Rede de uma empresa que precisa
 alexandre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;456123789<br>
 anderson&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1245698456<br>
 antonio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;123456456<br>
-carlos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;91257581<br>
-cesar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;987458<br>
+carlos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;91257581<br>
+cesar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;987458<br>
 rosemary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;789456125<br>
 A partir desta lista de entrada, você deve criar um programa que gere um relatórioabaixo, no seguinte formato:<br>
 Empresa&nbsp;&nbsp;&nbsp;&nbsp;Uso do espaço em disco pelos usuários<br>
@@ -44,9 +44,9 @@ Nr.&nbsp;&nbsp;&nbsp;&nbsp;Usuário&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 1&nbsp;&nbsp;&nbsp;&nbsp;alexandre&nbsp;&nbsp;&nbsp;&nbsp;434,99 MB&nbsp;&nbsp;&nbsp;&nbsp;16,85%<br>
 2&nbsp;&nbsp;&nbsp;&nbsp;anderson&nbsp;&nbsp;&nbsp;&nbsp;1187,99 MB&nbsp;&nbsp;&nbsp;&nbsp;46,02%<br>
 3&nbsp;&nbsp;&nbsp;&nbsp;antonio&nbsp;&nbsp;&nbsp;&nbsp;117,73 MB&nbsp;&nbsp;&nbsp;&nbsp;4,56%<br>
-4vcarlos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;87,03 MB&nbsp;&nbsp;&nbsp;&nbsp;3,37%<br>
-5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cesar&nbsp;&nbsp;&nbsp;&nbsp;0,94 MB&nbsp;&nbsp;&nbsp;&nbsp;0,04%<br>
-6&nbsp;&nbsp;&nbsp;&nbsp;rosemaryv752,88 MB&nbsp;&nbsp;&nbsp;&nbsp;29,16%<br>
+4&nbsp;carlos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;87,03 MB&nbsp;&nbsp;&nbsp;&nbsp;3,37%<br>
+5&nbsp;cesar&nbsp;&nbsp;&nbsp;&nbsp;0,94 MB&nbsp;&nbsp;&nbsp;&nbsp;0,04%<br>
+6&nbsp;rosemary&nbsp;&nbsp;&nbsp;&nbsp;752,88 MB&nbsp;&nbsp;&nbsp;&nbsp;29,16%<br>
 <br>
 Espaço total ocupado: 2581,57 MB<br>
 Espaço médio ocupado: 430,26 MB
