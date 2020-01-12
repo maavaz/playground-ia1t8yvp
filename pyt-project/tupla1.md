@@ -23,7 +23,40 @@ Codigo&nbsp;&nbsp;&nbsp;Sanduíche&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duplo Cheeseburger&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 20,00<br>
 400&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cheeseFrango&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 18,00<br>
 500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hot Linguiça&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 19,00<br>
-Fazer uma função que retorna o nome e o preço unitário do sanduiche escolhido. Entrada da função: Código do Sanduíche. Saída: Uma tupla contendo o nome e o preço unitário (faça uma pesquisa como retornar uma tupla de função). A funçã deverá ter a tabela contendo o menu (cada item da tabela é uma tupla com código sanduiche e preço).
+Fazer uma função que retorna o nome e o preço unitário do sanduiche escolhido. <br>Entrada da função: Código do Sanduíche. <br>Saída: Uma tupla contendo o nome e o preço unitário (faça uma pesquisa como retornar uma tupla de função). A função deverá ter a tabela contendo o menu (cada item da tabela é uma tupla com código sanduiche e preço).
+
+::: Solução
+``` python
+def sanduba(cod):
+    menu = [(100,'HamBurger',12.00), (200,'CheeseBurger', 15.00), (300, 'Duplo CheeseBurger', 20.00),(400,'CheeseFrango', 18.00),(500, 'Hot Linguiça', 19.00)]
+     
+    for c, sand, pr in menu:
+        if c == cod:
+           return sand, pr 
+    return '',0.0
+def imprimenota(ped):
+    tot = 0
+    totg = 0
+    print('Sanduiche            Quantidade        V.Unit        Total')
+    
+    for (sand,qtd,pr) in pedido:
+        tot = qtd * pr 
+        print(sand, (24 - len(sand))*' ', qtd, '           ', pr, '        ', tot)
+        totg += tot
+    print('                                    total da Nota: ', totg)
+          
+pedido = []
+cod = int(input('Digite o código do sanduiche ou -1 para fechar o pedido:'))
+while cod != -1:
+     sand, pr = sanduba(cod)
+     if sand != '':
+        qtd = int(input('Digite a quantidade:'))
+        pedido.append((sand,qtd,pr)) 
+     cod = int(input('Digite o código do sanduiche ou -1 para fechar o pedido:'))
+imprimenota(pedido)    
+```
+
+:::
 
 ---
 #### Exercício 2
