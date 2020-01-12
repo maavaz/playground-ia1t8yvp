@@ -25,6 +25,8 @@ Codigo&nbsp;&nbsp;&nbsp;Sanduíche&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hot Linguiça&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 19,00<br>
 Fazer uma função que retorna o nome e o preço unitário do sanduiche escolhido. <br>Entrada da função: Código do Sanduíche. <br>Saída: Uma tupla contendo o nome e o preço unitário (faça uma pesquisa como retornar uma tupla de função). <br>A função deverá ter a tabela contendo o menu (cada item da tabela é uma tupla com código sanduiche e preço).
 
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor4.sh" })
+
 ::: Solução
 ``` python
 def sanduba(cod):
@@ -83,3 +85,12 @@ Nr.&nbsp;&nbsp;&nbsp;&nbsp;Usuário&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 Espaço total ocupado: 2581,57 MB<br>
 Espaço médio ocupado: 430,26 MB<br>
 Os dados de entrada devem ser lidos e armazenados em memória, caso sejam necessários, de forma a agilizar a execução do programa. A conversão do espaço ocupado em disco, de bytes para megabytes (1 Mb = 2<sup>20</sup> bytes) deverá ser feita através de uma função separada, que será chamada pelo programa principal. O cálculo do percentual de uso também deverá ser feito através de uma função, que será chamada pelo programa principal.
+
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor5.sh" })
+
+::: Solução
+``` python
+
+
+```
+:::
