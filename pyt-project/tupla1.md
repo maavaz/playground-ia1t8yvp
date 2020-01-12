@@ -70,7 +70,7 @@ antonio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;123456456<br>
 carlos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;91257581<br>
 cesar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;987458<br>
 rosemary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;789456125<br>
-A partir desta lista de entrada, você deve criar um programa que gere um relatórioabaixo, no seguinte formato:<br>
+A partir desta lista de entrada, você deve criar um programa que gere o relatório abaixo, no seguinte formato:<br>
 Empresa&nbsp;&nbsp;&nbsp;&nbsp;Uso do espaço em disco pelos usuários<br>
 ------------------------------------------------------------------------<br>
 Nr.&nbsp;&nbsp;&nbsp;&nbsp;Usuário&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Espaço utilizado&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;% do uso <br>
