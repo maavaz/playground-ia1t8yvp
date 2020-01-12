@@ -29,7 +29,7 @@ Codigo&nbsp;&nbsp;&nbsp;Sanduíche&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 ---
 #### Exercício 2
 ---
-faça um programa para ajudar o administrador de Rede de uma empresa que precisa saber qual o espaço em disco ocupado pelos arquivos dos usuários, e identificar os usuários com maior espaço ocupado. A entrada do programa é a lista abaixo onde cada linha possui o nome do usuário e o total (em bytes) ocupado pelos arquivos:<br>
+Faça um programa para ajudar o administrador de rede de uma empresa que precisa saber qual o espaço em disco ocupado pelos arquivos dos usuários, e identificar os usuários com maior espaço ocupado. A entrada do programa é a lista abaixo onde cada linha possui o nome do usuário e o total (em bytes) ocupado pelos arquivos:<br>
 alexandre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;456123789<br>
 anderson&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1245698456<br>
 antonio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;123456456<br>
