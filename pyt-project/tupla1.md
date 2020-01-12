@@ -13,8 +13,7 @@
 
 #### Exercício 1
 ---
-Faça um programa para calcular o valor pago nos pedidos de uma lanchonete. Para isso, o programa deve receber do usuário, os códigos 
-dos sanduiches e as  respectivas quantidades. Calcule e mostre o nome do sanduiche valor unitario, quantidade e o valor a ser pago pelo item  e o total geral do pedido.
+Faça um programa para calcular o valor pago no pedido de um usuário em uma lanchonete. Para isso, o programa deve receber do usuário, os códigos dos sanduiches e as respectivas quantidades. Calcule e mostre o nome do sanduiche, valor unitario, quantidade e o valor a ser pago pelo item  e o total geral do pedido.
 O programa termina quando o código do sanduiche for igual a 0 (zero).
 A seguir é apresentado o Menu da lanchonete:
 <br>
