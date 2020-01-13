@@ -8,7 +8,7 @@ Um arquivo é quase sempre representado por um nome (seguido de um ponto euma ex
 
 Para que um arquivo possa ser utilizado (leitura/gravação) é necessário abri-lo (comando open) antes de usá-lo e fechar (comando close) os arquivos quando tiver terminado de utilizá-lo. 
 Os formatos gerais para utilizar esses comandos é apresentado abaixo:
-Nome de Método	Uso	Explicação
-open	open(nome_arquivo,'r')	Abre um arquivo chamado nome_arquivo e o usa para leitura. Retorna uma referëncia para um objeto file.
-open	open(nome_arquivo,'w')	Abre um arquivo chamado nome_arquivo e o usa para escrita. Retorna uma referëncia para um objeto file.
-close	ref_arquivo.close()	Utilização do arquivo referenciado pela variável ref_arquivo terminou.
+Nome de Método&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uso&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Explicação
+open&nbsp;&nbsp;&nbsp;open(nome_arquivo,'r')&nbsp;&nbsp;&nbsp;Abre um arquivo chamado nome_arquivo e o usa para leitura. Retorna uma referëncia para um objeto file.
+open&nbsp;&nbsp;&nbsp;open(nome_arquivo,'w')&nbsp;&nbsp;&nbsp;Abre um arquivo chamado nome_arquivo e o usa para escrita. Retorna uma referëncia para um objeto file.
+close&nbsp;&nbsp;&nbsp;ref_arquivo.close()&nbsp;&nbsp;&nbsp;Utilização do arquivo referenciado pela variável ref_arquivo terminou.
