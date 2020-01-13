@@ -23,6 +23,13 @@ Out[4]: 20
 In [5]: func['nome']
 Out[5]: 'José'
 ```
+Outra forma de acesso é feito através da função ** get(chave)**:
+``` python
+In [7]: sal = func.get('salario')
+
+In [8]: sal
+Out[8]: 9200.45
+```
 O acesso a uma chave inexistente irá gerar um erro pelo python:
 ``` python
 In [6]: func['altura']   # Não existe a chave altura em func
@@ -34,4 +41,43 @@ KeyError                                  Traceback (most recent call last)
 KeyError: 'altura'
 
 ```
+## Alterando e Removendo Valores dos dicionários
 
+Os valores podem ser alterados diretamente em uma chave específica, isso pode ocorrer quando é necessário atualizar ou inicializar uma chave do dicionário. Por outro lado, a operação de deleção pode ser realizada tanto para uma chave específica (comando **del**), para o último elemento (função **popitem()**) como a remoção do dicionário inteiro (função **clear()**).  
+
+``` python
+In [10]: carro = {'marca': 'Jeep', 'versao': 'Renegade 1.8 Flex AT', 'ano': 2020, 'preco':89.990}
+
+In [11]: carro
+Out[11]: 
+{'marca': 'Jeep',
+ 'versao': 'Renegade 1.8 Flex AT',
+ 'ano': 2020,
+ 'preco': 89.99}
+
+In [12]: carro['versao']='Longitude 1.8 Flex AT'
+
+In [13]: carro
+Out[13]: 
+{'marca': 'Jeep',
+ 'versao': 'Longitude 1.8 Flex AT',
+ 'ano': 2020,
+ 'preco': 89.99}
+
+In [14]: del carro['marca']
+
+In [15]: carro
+Out[15]: {'versao': 'Longitude 1.8 Flex AT', 'ano': 2020, 'preco': 89.99}
+
+In [16]: carro.popitem()
+Out[16]: ('preco', 89.99)
+
+In [17]: carro
+Out[17]: {'versao': 'Longitude 1.8 Flex AT', 'ano': 2020}
+
+In [18]: carro.clear()
+
+In [19]: carro
+Out[19]: {}
+
+```
