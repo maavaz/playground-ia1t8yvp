@@ -37,7 +37,7 @@ plan:
   - title: Dicionários
     statement: /pyt-project/dicion.md
   - title: Dicionários (continuação)
-    statement: /pyt-project/dicion.md
+    statement: /pyt-project/dicion1.md
     
 projects:
   pyt:
