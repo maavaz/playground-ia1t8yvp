@@ -1,9 +1,8 @@
-# Dicionários
+# Dicionários em Python
 
 ### items(), keys() e values()
 
-Os dicionários são iteráveis, isto é, são objetos que podem ter os elementos da sequência percorridos um a um. A função **items()** retorna uma lista de tuplas com os pares “chave” : valor. A função **keys()** retorna uma lista apenas com as chaves do dicionário, enquanto que a função
-**values()** retorna uma lista apenas com os valores dos itens do dicionário. 
+Os dicionários são iteráveis, isto é, são objetos que podem ter os elementos da sequência percorridos um a um. A função **items()** retorna uma lista de tuplas com os pares “chave” : valor. A função **keys()** retorna uma lista apenas com as chaves do dicionário, enquanto que a função **values()** retorna uma lista apenas com os valores dos itens do dicionário. 
 ```python
 In [1]: cesta_frutas = {'maça':60, 'uva':20, 'pera':35, 'abacaxi':25, 'laranja':55}
 
