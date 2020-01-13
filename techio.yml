@@ -34,6 +34,10 @@ plan:
     statement: /pyt-project/tupla.md     
   - title: Exercitando
     statement: /pyt-project/tupla1.md     
+  - title: Dicionários
+    statement: /pyt-project/dicion.md
+  - title: Dicionários (continuação)
+    statement: /pyt-project/dicion.md
     
 projects:
   pyt:
