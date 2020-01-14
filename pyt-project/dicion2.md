@@ -29,7 +29,7 @@
 ### Exercício 1
 ---
 
-Digite uma frase qualquer:Faça um programa para contar e exibir a quantidade e percentual de cada vogal em uma frase digitada pelo usuário na entrada. Utilize a estrutura de dicionário para armazenar os contadores das vogais. Utilize uma das funções **upper()** ou **lower()** para comparação.
+Digite uma frase qualquer:Faça um programa para contar e exibir a quantidade e percentual de cada vogal em uma frase digitada pelo usuário na entrada. Utilize a estrutura de dicionário para armazenar os contadores das vogais. Utilize uma das funções **upper()** ou **lower()** para comparação. Na criação do dicionário, inicialize valor com 0(zero).
 
 @[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor6.sh" })
 
