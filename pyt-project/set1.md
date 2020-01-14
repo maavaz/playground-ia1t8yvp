@@ -32,5 +32,14 @@ A interseção de dois conjuntos A e B é o conjunto de elementos comuns em ambo
 ![conjuntos](/imagens/intersecao.png)
 
 ``` python
+In [10]: set1 = {'A', 'B', 'C', 'D'}
+
+In [11]: set2 = {'C', 'D', 'E', 'F'}
+
+In [12]: set3 = set1 & set2    # Podemos usar o método Intersection: set1.intersection(set2)
+
+In [13]: set3
+Out[13]: {'C', 'D'}
 
 ```
+
