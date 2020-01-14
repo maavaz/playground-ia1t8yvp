@@ -11,6 +11,11 @@ Um arquivo é quase sempre representado por um nome (seguido de um ponto euma ex
 + Acesso aos dados poder ser não seqüencial;
 + Acesso concorrente aos dados (mais de um programa pode usar os dados ao mesmo tempo).
 
+Em geral, as operações com arquivos seguem uma ordem, a saber:
+1 - Abrir o(s) arquivo(s)
+2 - Efetuar operações de Leitura e Gravação dos dados
+3 - fechar o(s) arquivo(s)
+
 ### Abertura e fechamento dos Arquivos
 
 Para que um arquivo possa ser utilizado (leitura/gravação) é necessário abri-lo (comando open) antes de usá-lo e fechar (comando close) os arquivos quando tiver terminado de utilizá-lo. 
