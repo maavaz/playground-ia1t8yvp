@@ -45,3 +45,8 @@ Out[13]: {'C', 'D'}
 
 ### Diferença
 
+A diferença entre dois conjuntos A e B (A - B) é um conjunto de elementos que estão apenas em A, mas não em B. Da mesma forma, a diferença entre os conjuntos B e A (B - A) é um conjunto de elementos em B, mas não em A. Em python, a diferença é realizada usando o operador **-**. Essa mesma operação pode ser realizado usando o método **difference()**.
+
+``` python
+
+```
