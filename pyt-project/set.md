@@ -31,8 +31,40 @@ Out[28]: set()
 
 ```
  
- ## Incluindo e Alterando itens em Sets
+ ## Incluindo, Alterando itens e Excluindo itens em Sets
  
-**Set** são mutáveis mas, como não são ordenadas, a indexação não tem significado. Logo, não podemos acessar ou alterar um elemento do conjunto usando indexação ou slice. O conjunto não suporta.
+**Set** são mutáveis mas, como não são ordenados, a indexação não tem significado. Logo, não podemos acessar ou alterar um elemento do conjunto usando indexação ou slice, conjunto não suporta.
 
 Podemos adicionar um único elemento usando o método **add()** e vários elementos usando o método **update()**. O método **update()** pode levar tuplas, listas, strings ou outros conjuntos como argumento. Em todos os casos, duplicatas são evitadas.
+Um item específico pode ser removido do conjunto usando métodos, **discard()** e **remove()**. A diferença entre as duas funções está realcionada a existência do item no conjunto, isto é, usando **discard()** se o item não existir no conjunto, ele permanecerá inalterado, mas a função **remove()** gera um erro nessa condição.
+
+``` python
+In [29]: set1 = {1,3}
+
+In [30]: set1
+Out[30]: {1, 3}
+
+In [31]: set1.add(2)
+
+In [32]: set1
+Out[32]: {1, 2, 3}
+
+In [33]: set1.update([2,3,4,5])  # não inclui elemento duplicado
+
+In [34]: set1
+Out[34]: {1, 2, 3, 4, 5}
+
+In [35]: set1.remove(6)                            # O item 6 não existe no conjunto, gera erro
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+<ipython-input-35-722c24176164> in <module>()
+----> 1 set1.remove(6)
+
+KeyError: 6
+
+In [36]: set1.discard(6)                       # Nesse caso, não irá gerar erro.
+
+In [37]: set1
+Out[37]: {1, 2, 3, 4, 5}
+```` 
+
