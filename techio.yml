@@ -42,6 +42,8 @@ plan:
     statement: /pyt-project/dicion2.md  
   - title: Sets
     statement: /pyt-project/set.md     
+  - title: Sets (Continuação)
+    statement: /pyt-project/set1.md     
     
 projects:
   pyt:
