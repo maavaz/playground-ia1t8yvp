@@ -31,3 +31,25 @@
 
 Digite uma frase qualquer:Faça um programa para contar e exibir a quantidade e percentual de cada vogal em uma frase digitada pelo usuário na entrada. Utilize a estrutura de dicionário para armazenar os contadores das vogais. Utilize uma das funções **upper()** ou **lower()** para comparação.
 
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor6.sh" })
+
+::: Solução
+``` python
+soma = lambda x: sum([ int(x) for x in dic.values() ])
+def conta(dic, letra):
+    if letra.lower() in dic:
+       dic[letra.lower()] += 1
+    return dic   
+dic = {'a':0, 'e':0, 'i':0, 'o':0, 'u':0}
+frase = input('Digite uma frase qualquer:')
+for car in frase:
+     dic = conta(dic, car)
+
+s = soma(dic)  
+print ('vogal      qtd    frequência')
+for vog, qtd in dic.items():
+    y = int(qtd)/s*100
+    print ("  ",vog, ':     ', qtd, '     ', '{0:.2f}'.format(y), '%')
+
+```
+:::
