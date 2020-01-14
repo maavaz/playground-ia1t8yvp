@@ -12,9 +12,9 @@ Um arquivo é quase sempre representado por um nome (seguido de um ponto euma ex
 + Acesso concorrente aos dados (mais de um programa pode usar os dados ao mesmo tempo).
 
 Em geral, as operações com arquivos seguem uma ordem, a saber:<br>
-1 - Abrir o(s) arquivo(s) <br>
-2 - Efetuar operações de Leitura e Gravação dos dados <br>
-3 - fechar o(s) arquivo(s) <br>
+&nbsp;&nbsp;&nbsp;**1 -** Abrir o(s) arquivo(s) <br>
+&nbsp;&nbsp;&nbsp;**2 -** Efetuar operações de Leitura e Gravação dos dados <br>
+&nbsp;&nbsp;&nbsp;**3 -** fechar o(s) arquivo(s) <br>
 
 ### Abertura e fechamento dos Arquivos
 
