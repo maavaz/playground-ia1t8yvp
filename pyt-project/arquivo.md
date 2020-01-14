@@ -4,6 +4,13 @@ Até agora, os dados utilizados em nossos programas ou são inseridos diretament
 Mas, no mundo real, armazenamos os dados em estruturas denominada **"arquivo"**.  um arquivo é um conjunto de dados que se relacionam de alguma forma, representando alguma informação ou conjunto de informações das mais diversas naturezas como imagens, áudio, texto, instruções para processadores, etc.
 Um arquivo é quase sempre representado por um nome (seguido de um ponto euma extensão) e são armazenados em dispositivos permanentes, isto é, são dispositivos que mantém os dados de maneira permanente.
 
+### Por que usar arquivos?
+
++ Permitem armazenar grande quantidade de informação;
++ Dados não são perdidos (persistência dos dados);
++ Acesso aos dados poder ser não seqüencial;
++ Acesso concorrente aos dados (mais de um programa pode usar os dados ao mesmo tempo).
+
 ### Abertura e fechamento dos Arquivos
 
 Para que um arquivo possa ser utilizado (leitura/gravação) é necessário abri-lo (comando open) antes de usá-lo e fechar (comando close) os arquivos quando tiver terminado de utilizá-lo. 
