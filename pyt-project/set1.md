@@ -49,5 +49,12 @@ A diferença entre dois conjuntos A e B (A - B) é um conjunto de elementos que 
 ![conjuntos](/imagens/diferenca.png)
 
 ``` python
+In [14]: set1 = {'A', 'B', 'C', 'D'}
 
+In [15]: set2 = {'C', 'D', 'E', 'F'}
+
+In [16]: set3 = set1 - set2    # Podemos usar o método difference: set1.difference(set2)
+
+In [17]: set3
+Out[17]: {'A', 'B'}
 ```
