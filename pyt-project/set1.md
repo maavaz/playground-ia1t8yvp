@@ -2,7 +2,7 @@
 
 ### OPerações em Sets (Conjuntos)
 
-**Sets** podem ser usados em operações matemática como: união, interseçãon, diferença e diferença simétrica. Isto é realizado por operadores ou métodos.
+**Sets** podem ser usados em operações matemática como: união, interseçãon e diferença. Isto é realizado por operadores ou métodos.
 
 ### União
 
@@ -42,4 +42,6 @@ In [13]: set3
 Out[13]: {'C', 'D'}
 
 ```
+
+### Diferença
 
