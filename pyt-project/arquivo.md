@@ -11,10 +11,10 @@ Um arquivo é quase sempre representado por um nome (seguido de um ponto euma ex
 + Acesso aos dados poder ser não seqüencial;
 + Acesso concorrente aos dados (mais de um programa pode usar os dados ao mesmo tempo).
 
-Em geral, as operações com arquivos seguem uma ordem, a saber:
-1 - Abrir o(s) arquivo(s)
-2 - Efetuar operações de Leitura e Gravação dos dados
-3 - fechar o(s) arquivo(s)
+Em geral, as operações com arquivos seguem uma ordem, a saber:<br>
+1 - Abrir o(s) arquivo(s) <br>
+2 - Efetuar operações de Leitura e Gravação dos dados <br>
+3 - fechar o(s) arquivo(s) <br>
 
 ### Abertura e fechamento dos Arquivos
 
