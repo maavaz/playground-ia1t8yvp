@@ -40,7 +40,7 @@ plan:
     statement: /pyt-project/dicion1.md
   - title: Exercitando
     statement: /pyt-project/dicion2.md  
- - title: Sets
+  - title: Sets
     statement: /pyt-project/set.md     
     
 projects:
