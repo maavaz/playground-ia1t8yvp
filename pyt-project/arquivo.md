@@ -24,6 +24,7 @@ Os formatos gerais para utilizar esses comandos é apresentado abaixo:<br>
 **open**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**open(nome_arquivo,'r')**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abre um arquivo chamado nome_arquivo e o usa para leitura.<br>
 **open**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**open(nome_arquivo,'w')**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abre um arquivo chamado nome_arquivo e o usa para escrita.<br>
 **close**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ref_arquivo.close()**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Utilização do arquivo referenciado pela variável ref_arquivo terminou.<br>
+**OBS:** **Ref_arquivo** refere-se a variável associada ao comando Open.
 
  Os arquivos são localizados no disco e através do seu caminho (path) e, por isso, o parâmetro nome do arquivo deve estar associado ao caminho para achá-lo no disco. Pode-se trabalhar com caminhos absolutos ou relativos:
 + **Caminho absoluto:** descrição de um caminho desde o diretório raiz. <br>
@@ -38,5 +39,7 @@ O modo de abertura de arquivos em python define a operação que será realizada
 f = open("c:\temp\teste.txt")      # equivalente a 'r' ou 'rt' (abertura de arquivo texto)
 f = open("c:\temp\teste.txt",'w')  # gravação no modo texto
 f = open("img.bmp",'r+b') # leitura e gravação no modo binário
-# As operações de leitura e gravação devem levar em conta a variável f
+# As operações de leitura e gravação devem levar em conta a variável f (ref_arquivo)
+
+f.close() # fechamento do arquivo
 ```
