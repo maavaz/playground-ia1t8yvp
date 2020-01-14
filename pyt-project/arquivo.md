@@ -32,5 +32,11 @@ Os formatos gerais para utilizar esses comandos é apresentado abaixo:<br>
                    **arquivo.txt ou ..\dados.txt**<br>
                    
 ### Modo de Abertura
-O modo de abertura de arquivos em python define a operação que será realizada no arquivo, por exemplo, se queremos ler dados colocamos no comado open a letra **'r'**, se queremos gravar dados colocamos a letra **'w'**, mas se queremos gravar dados em arquivos já existentes colocamos a letra 'a' (append) no comando. Por padrão, a gravação e leitura dos dados é efetuada no modo texto, mas se quisermos abrir o arquivo para leitura ou gravação de dados binários devemos especificar usando a letra **b**. O modo binário retorna bytes e esse é o modo a ser usado ao lidar com arquivos não-texto, como arquivos de imagem ou exe.
+O modo de abertura de arquivos em python define a operação que será realizada no arquivo, por exemplo, se queremos ler dados colocamos no comado open a letra **'r'**, se queremos gravar dados colocamos a letra **'w'**, mas se queremos gravar dados em arquivos já existentes colocamos a letra **'a' (append)** no comando. Por padrão, a gravação e leitura dos dados é efetuada no modo texto, mas se quisermos abrir o arquivo para leitura ou gravação de dados binários devemos especificar usando a letra **b**. O modo binário retorna bytes e esse é o modo a ser usado ao lidar com arquivos não-texto, como arquivos de imagem ou exe.
 
+``` python
+f = open("c:\temp\teste.txt")      # equivalente a 'r' ou 'rt' (abertura de arquivo texto)
+f = open("c:\temp\teste.txt",'w')  # gravação no modo texto
+f = open("img.bmp",'r+b') # leitura e gravação no modo binário
+# As operações de leitura e gravação devem levar em conta a variável f
+```
