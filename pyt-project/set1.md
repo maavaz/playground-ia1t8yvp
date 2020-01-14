@@ -10,5 +10,27 @@ A união de dois conjuntos A e B é o conjunto composto por todos os elementos d
 ![conjuntos](/imagens/uniao.png)
 
 ``` python
+In [1]: set1 = {'A', 'B', 'C', 'D'}
+
+In [2]: set1
+Out[2]: {'A', 'B', 'C', 'D'}
+
+In [3]: set2 = {'C', 'D', 'E', 'F'}
+
+In [4]: set2
+Out[4]: {'C', 'D', 'E', 'F'}
+
+In [5]: set3 = set1 | set2     # Poderíamos utilizar o método union: set1.union(set2)
+
+In [6]: set3                           # União dos conjuntos set1 e set2
+Out[6]: {'A', 'B', 'C', 'D', 'E', 'F'}
+```
+
+### Interseção
+
+A interseção de dois conjuntos A e B é o conjunto de elementos comuns em ambos os conjuntos. Em python, a interseção é realizada usando o operador &. Essa mesma operação pode ser realizada usando o método intersection().
+![conjuntos](/imagens/intersecao.png)
+
+``` python
 
 ```
