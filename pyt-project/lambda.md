@@ -2,7 +2,7 @@
 
 O python provê um tipo diferente de função denominado de **função Lambda**. Num primeiro momento, funções locais (**def**) e **expressões lambda** são muito semelhantes. Em muitos casos, a escolha entre usar expressões lambda e funções locais é uma questão de estilo e preferência pessoal.
 
-Todas as características de uma função lambda são muito parecidas com as funções locais, com exceção de duas coisas: elas não possuem uma definição em código, ou seja, são declaradas como variáveis e não possuem um def próprio; e elas são funções de uma linha, que funcionam como se houvesse a instrução return antes do comando.
+Todas as características de uma função lambda são muito parecidas com as funções locais, com exceção de duas coisas: elas não possuem uma definição em código, ou seja, são declaradas como variáveis e não possuem um **def** próprio; e elas são funções de uma linha, que funcionam como se houvesse a instrução **return** antes do comando.
 
 Veja o exemplo a seguir:
 
