@@ -48,8 +48,7 @@ Ulisses,1.2
 Valeria,9.6
 Zenon,4.3
 ```
-Faça um programa que leia os dados armazenados no arquivo: alunos.txt. Crie um dicionário (nome:nota) com as informações lidas. A seguir, calcule e exiba a média geral da turma, Maior nota da turma, com respectivo nome do aluno, Menor nota com respectivo nome do aluno e lista dos alunos (nome e nota) com notas acima da média.
-Dica1: crie duas listas e armazene as informações de nomes e notas, uma em cada lista e, a partir daí, crie o dicionário usando a função **zip**. Utilize a função **split** com delimiter = ',' para quebrar as linhas do arquivos em nome e nota.
+Faça um programa que leia os dados armazenados no arquivo: **alunos.txt**. Crie um dicionário (nome:nota) com as informações lidas. A seguir, calcule e exiba a média geral da turma, maior nota da turma, com respectivo nome do aluno, menor nota com respectivo nome do aluno e **Dica1:** crie duas listas e armazene as informações de nomes e notas, uma em cada lista e, a partir daí, crie o dicionário usando a função **zip**. Utilize a função **split** com delimiter = ',' para quebrar as linhas do arquivos em nome e nota.
  
 
 @[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor7.sh" })
