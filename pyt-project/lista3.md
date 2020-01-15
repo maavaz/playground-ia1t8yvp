@@ -5,11 +5,7 @@ Uma operação muito interessante que Python fornece para manipulação de Lista
 
 Essa operação permite delimitar os limites inferior e superior do pedaço da lista que queremos acessar. Para delimitarmos esses limites usamos a seguinte forma geral:
 ![funcao](/imagens/slice.png)
-```
-                      Lista[inferior:superior]
-                      
- Obs: O limite superior não é incluído no fatiamento.
-```
+
 Exemplos:
 ``` python
 In [1]: semana = ['SEG', 'TER', 'QUA', 'QUI', 'SEX','SAB', 'DOM']
@@ -34,9 +30,7 @@ In [10]: semana[-5:]
 Out[10]: ['QUA', 'QUI', 'SEX', 'SAB', 'DOM']
 ```
 Pode-se especificar o passo a ser somado ao índice para recuperação dos elementos. Forma geral:
-```
-                     Lista[inferior:superior:passo]
-```
+![funcao](/imagens/listapass.png)
 Exemplo:
 ```
 In [12]: semana[1:6:2]  # Exibe os elementos de 2 em 2 a partir do índice 1 (índices: 1, 3, 5).
