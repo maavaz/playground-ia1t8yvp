@@ -15,7 +15,7 @@ In [2]: func = {"matricula":123, "nome": "José", "idade": 20, "salario": 9200.4
 In [3]: func
 Out[3]: {'matricula': 123, 'nome': 'José', 'idade': 20, 'salario': 9200.45}
 ```
-O acesso aos dados de um dicionário, é semelhante ao formato das listaS, usando o nome da chave entre 'colchetes' em vez de um índice numérico. 
+O acesso aos dados de um dicionário, é semelhante ao formato das listas, usando o nome da chave entre 'colchetes' em vez de um índice numérico. 
 ``` python
 In [4]: func['idade']
 Out[4]: 20
