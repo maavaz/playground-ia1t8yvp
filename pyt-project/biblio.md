@@ -9,7 +9,7 @@ Alguns desses módulos são explicitamente projetados para incentivar e aprimora
 Para poder usar as funções é necessário importá-las de uma biblioteca/módulo. A importação de um módulo ou função só precisa ser feita uma única vez durante uma
 seção. Comumente a importação é feita no inicio da seção, entretanto ele pode ser feita em qualquer momento.
 Existem 2 maneiras de se importar:
-+ Direta - Nesse caso, importa-se apenas a função ou funções que se deseja usar são. O comando geral para a importação direta é:
++ Direta - Nesse caso, importa-se apenas a função ou funções que se deseja usar. O comando geral para a importação direta é:
 ```
        from módulo import função1, função2,... ,funçãon
        
