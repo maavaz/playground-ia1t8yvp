@@ -108,3 +108,20 @@ Tipo: tracker Precos:
 92950
 95900
 ```
+### Transformando listas em Dicionário
+
+Há várias maneiras de se ralizar a conversão de listas em dicionários. Um dicionário é um elemento que contém itens chave-valor e, por isso, é necessário utilizarmos duas listas para a cconversão em um dicionário (é possível usar apenas uma). Utilizamos
+duas listas com a mesma quantidade de elementos em um dicionário juntamente com a função **zip()** do Python. Essa função retorna uma lista contendo tuplas, onde o primeiro valor é o da primeira lista, e o segundo valor da tupla, corresponde a segunda lista. 
+A função zip faz parte da programação funcional implementada pelo Python. Assim, essa é uma das ferramentas que foram implementadas na linguagem e que trabalham muito bem com o paradigma de orientação a objetos.
+
+``` python
+In [1]: nomes = ['igor','gabriel', 'matheus']
+
+In [2]: idades = [22, 31, 33]
+
+In [3]: list(zip(nomes, idades)) # Transformando as listas em uma lista de tuplas
+Out[3]: [('igor', 22), ('gabriel', 31), ('matheus', 33)]
+
+In [4]: dict(zip(nomes, idades)) # Transformando as listas em um dicionário
+Out[4]: {'igor': 22, 'gabriel': 31, 'matheus': 33}
+```
