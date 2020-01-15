@@ -32,11 +32,11 @@ Out[3]: 3.141592653589793
 É possível importar todas as funções e variáveis de uma biblioteca usando o comando: 
 
 ```
-from módulo import * 
-
-- a lista de funções é substituída pelo asterisco que indica “todos”. 
+from módulo import *   # a lista de funções é substituída pelo asterisco que indica “todos”. 
 ```
-In[1]: <b>from math import *</b>  #Importando todas as funções da biblioteca math
+-Exemplo:
+``` python
+In[1]: from math import *     # Importando todas as funções da biblioteca math
 
 In[2]: cos(90)
 
@@ -45,13 +45,14 @@ Out[2]: -0.4480736161291701
 In[3]: sin(60)
 
 Out[3]: 0.70710678118654746 
-
+```
 + Indireta - Nesse caso todo o módulo é importado e as funções e variáveis são acessadas com o nome do módulo seguido de um ponto e do nome da função (módulo.função). O comando usado para a importação indireta é:
 ```
 import módulo
 ```
 #### Exemplo
-In[1]: <b>import math</b>     #Importando todas as funções da biblioteca math
+``` python
+In[1]: import math          #Importando todas as funções da biblioteca math
 
 In[2]: math.cos(90)
 
@@ -60,7 +61,7 @@ Out[2]: -0.4480736161291701
 In[3]: math.sin(60)
 
 Out[3]: 0.70710678118654746 
-
+```
 
 
 
