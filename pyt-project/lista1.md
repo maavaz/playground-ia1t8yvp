@@ -19,7 +19,8 @@ Out[3]: 'QUI'
 
 É possível saber o comprimento (número de itens) de uma lista, através da função **len()**, como mostra o exemplo abaixo.
 ``` python
-len(semana)
+In[4] :len(semana)
+
 Out[4]: 7
 ```
 Podemos percorrer todos os elementos da lista utilizando a estrutura **for**. Isso pode ser feito de 2 maneiras vistas no exemplo abaixo.
