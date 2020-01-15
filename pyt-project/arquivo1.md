@@ -14,7 +14,7 @@ Segunda linha de dados<br>
 Terceira linha de dados<br>
 
 ``` python
->>> f = open('teste.txt', 'r')    # Abre o arqvui teste.txt
+>>> f = open('teste.txt', 'r')    # Abre o arquivo teste.txt
 >>> 
 >>> f.read(5)                     # Lê os 5 primeiros caracteres da primeira linha
 'Prime'
