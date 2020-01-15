@@ -35,7 +35,8 @@ Digite uma frase qualquer:Faça um programa para contar e exibir a quantidade e 
 
 ::: Solução
 ``` python
-soma = lambda x: sum([ int(x) for x in dic.values() ])
+soma = lambda x: sum([ int(z) for z in x.values() ])
+
 def conta(dic, letra):
     if letra.lower() in dic:
        dic[letra.lower()] += 1
