@@ -41,5 +41,5 @@ O modo **'r+'** permite tanto a leitura quanto a escrita em arquivos. A posiçã
 16
 >>> f.close()
 ```
-Arquivo: novo_arquivo.txt
+Arquivo: novo_arquivo.txt<br>
 Testando r+Novo teste do r++
