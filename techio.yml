@@ -44,6 +44,12 @@ plan:
     statement: /pyt-project/set.md     
   - title: Sets (Continuação)
     statement: /pyt-project/set1.md     
+  - title: Arquivos
+    statement: /pyt-project/arquivo.md
+  - title: Arquivos (Continuaçao)
+    statement: /pyt-project/arquivo1.md
+  - title: Arquivos (continuação)
+    statement: /pyt-project/arquivo2.md  
     
 projects:
   pyt:
