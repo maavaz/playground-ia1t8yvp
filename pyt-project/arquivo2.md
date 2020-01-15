@@ -20,10 +20,10 @@ O comando **Open** com o modo **'w'** sempre criará um arquivo vazio, isto é, 
 32
 >>> f.close()
 ```
-Arquivo: **saida.txt**
-Isso e um teste de gravação
-gravando a segunda linha
-Incluindo nova linha no arquivo
+Arquivo: **saida.txt** <br>
+Isso e um teste de gravação<br>
+gravando a segunda linha<br>
+Incluindo nova linha no arquivo<br>
 
 ### Abrindo arquivo no modo r+
 O modo **'r+'** permite tanto a leitura quanto a escrita em arquivos. O controle de gravação dos dados no arquivo é do programador. A posição de início de gravação dos dados ao abrir o arquivo neste modo é 0 (zero), portanto, se houver necessidade de gravar dados, o programador deverá considerar a quantidade de dados gravados, para posicionar o cursor na nova posição de gravação. Se não houver essa preocupação na movimentação da posição gravação, o programa irá sempre realizar a gravação do início (posição 0), sobrepondo o que foi gravado anteriormente. A função(comando) que possibilita posicionar o cursor do arquivo na próxima possição de gravação é **seek(posição)**.
