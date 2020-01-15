@@ -44,3 +44,11 @@ Terceira linha de dados
 'Terceira linha de dados'          # Leitura da terceira linha
 >>> f.close()
 ```
+Por fim, há ainda o comando **readlines()** que returna uma lista das linhas do arquivo. todos os métodos de leitura apresentados aqui irão retornar um valor "vazio" quando chegam ao final do arquivo (End Of File - EOF).
+``` phyton
+>>> f = open('teste.txt', 'r')
+>>> 
+>>> f.readlines()
+['Primeira linha de dados\n', 'Segunda linha de dados\n', 'Terceira linha de dados']  # Lista com as linhas do arquivo
+>>> f.close()
+```
