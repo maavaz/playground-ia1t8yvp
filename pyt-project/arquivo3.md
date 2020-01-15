@@ -6,13 +6,13 @@
 -[ ] open('c:gatos.txt\veterinaria', 'r+')
 -[ ] open(c:gatos.txt\veterinaria, 'rw')
 
-?[Ao ler um arquivo usando o objeto file, qual o melhor método para ler o arquivo inteiro em uma única string?]
--[ ] .readline()
--[ ] .read_file_to_str()
--[x] .read()
--[ ] .readlines()
+?[Ao ler um arquivo usando o objeto file(f), qual o melhor método para ler o arquivo inteiro em uma única string?]
+-[ ] f.readline()
+-[ ] f.read_file_to_str()
+-[x] f.read()
+-[ ] f.readlines()
 
-?[Qual dos seguintes comandos pode ser usado para ler a próxima linha em um arquivo usando o objeto File f?]
+?[Qual dos seguintes comandos pode ser usado para ler a próxima linha em um arquivo usando o objeto <b>File f</b> ?]
 -[ ] f.read (n)
 -[ ] f.read ()
 -[x] f.readline ()
