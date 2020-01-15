@@ -1,6 +1,6 @@
 # Tuplas
 
-Do ponto de vista técnico, as listas funcionam bem para armazenar conjuntos de itens que podem sofrer alterações durante a vida de um programa, isto é, são mutáveis.Por outro lado, há situações que não gostaríamos que os valores de uma determinada lista fossem alterados. O python possui uma lista onde os valores armazenados são imutáveis, denominada de **Tuplas**.
+Do ponto de vista técnico, as listas funcionam bem para armazenar conjuntos de itens que podem sofrer alterações durante a vida de um programa, isto é, são mutáveis. Por outro lado, há situações que não gostaríamos que os valores de uma determinada lista fossem alterados. O python possui uma lista onde os valores armazenados são imutáveis, denominada de **Tuplas**.
 
 ## Definindo uma tupla
 
