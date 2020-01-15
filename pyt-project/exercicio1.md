@@ -56,7 +56,7 @@ _--
 
 Faça um programa que leia duas notas de um aluno numa turma de 10 alunos. Para cada aluno, calcular a média ponderadas das notas, sabendo que a <b>nota1</b> tem <b>peso = 4</b> e a <b>nota2</b> tem <b>peso = 6</b>. Imprimir a média do aluno e o conceito final, conforme tabela abaixo:
 
- **Intervalo**   **Conceito** <p></p>
+ **Intervalo**&nbsp;&nbsp;&nbsp;&nbsp;   **Conceito** <p></p>
    0.0 a 4.9  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D     
    5.0 a 6.9  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C     
    7.0 a 8.9  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B     
