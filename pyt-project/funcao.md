@@ -2,7 +2,7 @@
 
 Na programação, funções são blocos de comandos que realizam determinadas tarefas que normalmente precisam ser executadas diversas vezes 
 dentro de uma aplicação. Em outras palavras, pode-se dizer que é um pequeno "programa" com vários comandos agrupados em uma função, à qual é dado um nome e que poderá ser chamada/executada em diferentes partes do programa.
- A utilização de funções, muito comum na programação estruturada, visa subdividir um programa em partes (módulos) menores que realizam uma tarefa bem definida.
+ A utilização de funções, muito comum na programação estruturada, pois visa subdividir um programa em partes (módulos) menores que realizam uma tarefa bem definida.
 
 #### Benefícios da utilização de funções:
 + Permite o reaproveitamento de código já construído(por você ou por outros programadores);
