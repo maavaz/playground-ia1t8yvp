@@ -50,7 +50,9 @@ plan:
     statement: /pyt-project/arquivo1.md
   - title: Arquivos (continuação)
     statement: /pyt-project/arquivo2.md  
-    
+  - title: Exercitando
+    statement: /pyt-project/arquivo3.md  
+  
 projects:
   pyt:
     root: /pyt-project
