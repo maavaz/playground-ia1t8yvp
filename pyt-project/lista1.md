@@ -19,7 +19,7 @@ Out[3]: 'QUI'
 
 É possível saber o comprimento (número de itens) de uma lista, através da função **len()**, como mostra o exemplo abaixo.
 ``` python
-In[4] :len(semana)
+In [4]:len(semana)
 
 Out[4]: 7
 ```
