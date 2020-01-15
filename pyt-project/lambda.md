@@ -13,10 +13,11 @@ def ex_soma (a, b):
    
 soma_lambda = lambda numero1, numero2: numero1 + numero2  # Função soma escrita como Função Lambda
 
-soma = ex_soma(10, 20)
+soma = ex_soma(10, 20)         # Chamada da função ex_soma
+
 print('Soma = ', soma)
 
-soma = soma_lambda(10,20)
+soma = soma_lambda(10,20)     # Chamada da função lambda soma_lambda
 
 print ('Soma Lambda = ', soma)
 ```
