@@ -24,7 +24,7 @@
 **ATENÇÃO:** Para execução do exercício é necessário que você abra uma nova aba (nomeie como alunos.tx) no Editor Trinket abaixo, copie e cole os dados apresentados, a seguir. Após feito isso, retorne a aba **main.py** e desenvolva a solução do problema descrito abaixo. 
 Para abrir uma nova aba no **trinket** aperte o símbolo de **"+"** no canto superior direito do editor.
 ``` txt
-Amanda.,4.00
+Amanda,4.00
 Ana,7.00
 Bernardo,9.00
 Clarisse,5.50
