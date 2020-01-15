@@ -12,6 +12,7 @@ dentro de uma aplicação. Em outras palavras, pode-se dizer que é um pequeno "
 
 A forma geral de uma função definida pelo usuário é:
 
+![funcao](/imagens/funcao.png)
 ```
 def nome da função(variável 1, variável 2, ... , variável n):
  comandos
