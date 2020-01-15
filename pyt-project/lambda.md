@@ -30,7 +30,10 @@ Exemplo:
 ```
 In [1]: cubo = lambda numero: numero * numero * numero
 In [2]: cubo(3)
+
 Out[2]: 27
+
 In [3]: cubo(5)
+
 Out[3]: 125
 ```
