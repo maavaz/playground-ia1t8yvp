@@ -17,8 +17,8 @@ Existem 2 maneiras de se importar:
       - “função1”, “função2”,... são os nomes das funções.
 ```
 #### Exemplo
-
-In[1]: <b>from math import sin, pi</b>  #importando apenas as funções sin e pi da biblioteca math
+``` python
+In[1]:  from math import sin, pi          #importando apenas as funções sin e pi da biblioteca math
 
 In[2]: sin(90)
 
@@ -27,8 +27,10 @@ Out[2]: 0.8939966636005579
 In[3]: pi
 
 Out[3]: 3.141592653589793
+```
 
 É possível importar todas as funções e variáveis de uma biblioteca usando o comando: 
+
 ```
 from módulo import * 
 
