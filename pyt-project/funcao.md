@@ -39,7 +39,11 @@ def exibir(msg, valor):       # Procedimento ou sub-rotina
   
 numero1 = dez()               # Função irá retornar o número 10
 
+exibir('O valor armazenado em numero1 =', numero1) # Chama a subrotina para exibir a mensagem e o valor armazenado em numero1
+
 numero2 = dez()**2            # O número 10 retornado da função será elevado ao quadrado
+
+exibir('O valor armazenado em numero2 =', numero2) # Chama a subrotina para exibir a mensagem e o valor armazenado em numero2
 
 soma = ex_soma(numero1, numero2)  # Chama a função para realizar a soma de 10 (numero 1) e 100 (numero2)
 
