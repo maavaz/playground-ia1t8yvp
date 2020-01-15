@@ -22,6 +22,7 @@ soma = soma_lambda(10,20)     # Chamada da função lambda soma_lambda
 print ('Soma Lambda = ', soma)
 ```
 A forma geral para criação da Função Lambda é:
+![funcao](/imagens/lambda.png)
 ```
 nome da função = lambda variável1, variável2, … : fórmula
 ```
