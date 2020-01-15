@@ -12,16 +12,16 @@
 -[x] f.read()
 -[ ] f.readlines()
 
-?[Qual dos seguintes comandos pode ser usado para ler a próxima linha em um arquivo usando o objeto <b>File f</b> ?]
+?[Qual dos seguintes comandos pode ser usado para ler a próxima linha em um arquivo usando o objeto file f ?]
 -[ ] f.read (n)
 -[ ] f.read ()
 -[x] f.readline ()
 -[ ] f.readlines ()
 ---
-### Exercício 1
+### Exercício 1 (Desafio)
 
 
-**ATENÇÃO:** Para execução do exercício é necessário que você abra uma nova aba (nomeie como alunos.tx) no Editor Trinket abaixo, copie e cole os dados apresentados, a seguir. Após feito isso, retorne a aba **main.py** e desenvolva a solução do problema descrito abaixo. 
+**ATENÇÃO:** Para execução do exercício é necessário que você abra uma nova aba (nomeie como **alunos.tx**) no **Editor Trinket** abaixo, copie e cole os dados apresentados, a seguir. Após feito isso, retorne a aba **main.py** e desenvolva a solução do problema descrito abaixo. 
 Para abrir uma nova aba no **trinket** aperte o símbolo de **"+"** no canto superior direito do editor.
 ``` txt
 Amanda,4.00
