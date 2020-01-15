@@ -18,7 +18,7 @@
 -[x] f.readline ()
 -[ ] f.readlines ()
 
-
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor7.sh" })
 
 
 
