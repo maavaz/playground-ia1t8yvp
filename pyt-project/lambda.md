@@ -23,10 +23,8 @@ print ('Soma Lambda = ', soma)
 ```
 A forma geral para criação da Função Lambda é:
 ![funcao](/imagens/lambda.png)
-```
-nome da função = lambda variável1, variável2, … : fórmula
-```
-As variáveis que aparecem na definição da função são os parâmetros e fórmula é a expressão da função.
+
+As **variáveis** que aparecem na definição da função são os parâmetros e **fórmula** é a expressão da função.
 
 Exemplo:
 ```
