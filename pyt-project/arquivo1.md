@@ -23,3 +23,24 @@ Terceira linha de dados<br>
 >>> f.close()
 >>> 
 ```` 
+O arquivo pode ser lido linha a linha através da estrutura **for** ou do comando **ref_arquivo.readline()**.
+``` python
+>>> f = open('teste.txt', 'r')
+>>> 
+>>> for linha in f: 
+...   print(linha, end=' ')  # end=' ' associado ao print exibe o espaço ao final da linha em vez \n(quebra de linha)
+...   
+Primeira linha de dados
+Segunda linha de dados
+Terceira linha de dados  
+>>> f.close()
+
+>>> f = open('teste.txt', 'r')
+>>> f.readline()                   # Leitura da primeira linha
+'Primeira linha de dados\n'
+>>> f.readline()                   # Leitura da segunda linha 
+'Segunda linha de dados\n'
+>>> f.readline()
+'Terceira linha de dados'          # Leitura da terceira linha
+>>> f.close()
+```
