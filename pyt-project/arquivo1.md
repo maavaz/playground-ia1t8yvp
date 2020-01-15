@@ -7,10 +7,10 @@ Para ler um arquivo em Python, precisamos abrir o arquivo no modo de leitura.
 Existem vários métodos disponíveis para esse fim. Podemos usar o método **read (size)** para ler do arquivo a quantidade de caracteres. 
 Se o parâmetro **size** não for especificado, o comando **read** fará uma única leitura do início ao final do arquivo.
 O exemplo a seguir irá utilizar o arquivo teste.txt com o conteúdo exibido abaixo:
-teste.txt
-Primeira linha de dados
-Segunda linha de dados
-Terceira linha de dados
+**teste.txt**<br>
+Primeira linha de dados<br>
+Segunda linha de dados<br>
+Terceira linha de dados<br>
 
 ``` python
 >>> f = open('teste.txt', 'r')    # Abre o arqvui teste.txt
