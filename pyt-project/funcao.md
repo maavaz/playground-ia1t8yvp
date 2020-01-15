@@ -13,15 +13,10 @@ dentro de uma aplicação. Em outras palavras, pode-se dizer que é um pequeno "
 A forma geral de uma função definida pelo usuário é:
 
 ![funcao](/imagens/funcao.png)
-```
-def nome da função(variável 1, variável 2, ... , variável n):
- comandos
- return valor
 
-```
 Uma função necessariamente deve retornar um valor (resultado) ao programa que a chamou, através da comando **return**. Mas, existem situações onde uma função não retorna valor algum (sem comando return), nesse caso, a função é denominada de **procedimento ou sub-rotina**.
 
-As variáveis que aparecem dentro do parênteses da função são denominadas de **parâmetros ou argumentos da função**. 
+As variáveis que aparecem dentro do parênteses da função são denominadas de **parâmetros ou argumentos da função** (variável, 1, variável 2...). 
 
 Uma função pode ter 0 (zero) ou n argumentos ou parâmetros. Parâmetros funcionam como a interface de comunicação (passagem de valores/dados) entre o programa (chamador) e a função, isto é, a forma que um programa passa valores para dentro das funções. 
 
