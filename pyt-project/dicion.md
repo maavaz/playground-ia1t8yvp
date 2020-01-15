@@ -1,6 +1,6 @@
 # Dicionários em Python
 
-Um dicionário (python) é uma estrutura de dados do tipo coleção, ou seja, um objeto que contém mais que um valor. 
+Um **dicionário** (python) é uma estrutura de dados do tipo coleção, ou seja, um objeto que contém mais que um valor. 
 Diferentemente das listas em que os elementos são acessados através de uma posição ou índice, nos dicionários o acesso às informações 
 ocorrem através de chaves (par chave e valor), conhecido como **key:value**. Os elementos de um dicionário são armazenados de forma não ordenada.
 
