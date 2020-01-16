@@ -28,7 +28,7 @@ Out[6]: {'A', 'B', 'C', 'D', 'E', 'F'}
 
 ### Interseção
 
-A interseção de dois conjuntos A e B é o conjunto de elementos comuns em ambos os conjuntos. Em python, a interseção é realizada usando o operador &. Essa mesma operação pode ser realizada usando o método intersection().
+A interseção de dois conjuntos A e B é o conjunto de elementos comuns em ambos os conjuntos. Em python, a interseção é realizada usando o operador **&**. Essa mesma operação pode ser realizada usando o método **intersection()**.
 ![conjuntos](/imagens/intersecao.png)
 
 ``` python
