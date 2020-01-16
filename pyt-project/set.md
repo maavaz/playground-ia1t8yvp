@@ -4,7 +4,7 @@
 
 ## Criando e acessando dados em Sets
 
-Um **set** é criado colocando-se os seus the itens (elementos) entre chave ({}), separados por vírgulas ou usando a função pré-definida **set()**, que transforma sequências de valores em **sets**.
+Um **set** é criado colocando-se os seus the itens (elementos) entre **chaves ({})**, separados por vírgulas ou usando a função pré-definida **set()**, que transforma sequências de valores em **sets**.
 ``` python
 
 
