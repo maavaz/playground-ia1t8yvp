@@ -2,7 +2,7 @@
 
 ## Gravando dados em um arquivo
 
-Para se gravar dados em um arquivo é necessário que seja usado o modo **'w'** na função **open()**. A seguir, para que os dados sejam gravados utiliza-se a função **write()** para escrever no arquivo aberto. O comando **write()** retorna sempre a quantidade de dados gravados no arquivo. Isso é útil quando for necessário controlar a gravação dos dados, explicado mais a frente.   
+Para se gravar dados em um arquivo é necessário que seja usado o modo **'w'** na função **open()**. A seguir, para que os dados sejam gravados, utiliza-se a função **write()** para escrever no arquivo aberto. O comando **write()** retorna sempre a quantidade de dados gravados no arquivo. Isso é útil quando for necessário controlar a gravação dos dados, explicado mais a frente.   
 ``` python
 
 >>> f = open('saida.txt', 'w')                # Abrindo arquivo para gravação. O arquivo saida.txt é criado no diretório corrente.
