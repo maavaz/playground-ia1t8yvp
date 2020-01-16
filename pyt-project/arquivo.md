@@ -24,6 +24,7 @@ Os formatos gerais para utilizar esses comandos é apresentado abaixo:<br>
 **open**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**open(nome_arquivo,'r')**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abre um arquivo chamado nome_arquivo e o usa para leitura.<br>
 **open**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**open(nome_arquivo,'w')**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abre um arquivo chamado nome_arquivo e o usa para escrita.<br>
 **close**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ref_arquivo.close()**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Utilização do arquivo referenciado pela variável ref_arquivo terminou.<br>
+
 **OBS:** **Ref_arquivo** refere-se a variável associada ao comando Open.
 
  Os arquivos são localizados no disco e através do seu caminho (path) e, por isso, o parâmetro nome do arquivo deve estar associado ao caminho para achá-lo no disco. Pode-se trabalhar com caminhos absolutos ou relativos:
