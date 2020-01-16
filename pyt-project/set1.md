@@ -1,6 +1,6 @@
 # Sets
 
-### OPerações em Sets (Conjuntos)
+### Operações em Sets (Conjuntos)
 
 **Sets** podem ser usados em operações matemática como: união, interseçãon e diferença. Isto é realizado por operadores ou métodos.
 
