@@ -30,7 +30,7 @@ nome: laranja       qtde: 55
 
 ### Lista de Dicionários 
 
-Os dicionários também podem ser armazenados em listas, através dos métodos já conhecidos como atribuição direta à variável, ou ainda, por meio do método append().
+Os dicionários também podem ser armazenados em listas, através dos métodos já conhecidos como atribuição direta à variável, ou ainda, por meio do método **append()**.
 ``` python
 In [1]: jeep_basico={'compass':116990,'cherokee':359900,'renegade':89990,'wrangler':272990}
 
