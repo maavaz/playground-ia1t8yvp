@@ -2,10 +2,8 @@
 
 ## Lendo dados em Python
 
-Para ler um arquivo em Python, precisamos abrir o arquivo no modo de leitura.
-
-Existem vários métodos disponíveis para esse fim. Podemos usar o método **read (size)** para ler do arquivo a quantidade de caracteres. 
-Se o parâmetro **size** não for especificado, o comando **read** fará uma única leitura do início ao final do arquivo.
+Para ler um arquivo em Python, precisamos abrir o arquivo no modo de leitura. Existem vários métodos disponíveis para esse fim. Podemos usar o método **read (size)** para ler do arquivo a quantidade de caracteres. 
+Se o parâmetro **size** não for especificado, o comando **read()** fará uma única leitura do início ao final do arquivo.
 O exemplo a seguir irá utilizar o arquivo teste.txt com o conteúdo exibido abaixo:<br>
 
 **teste.txt**<br>
@@ -44,7 +42,7 @@ Terceira linha de dados
 'Terceira linha de dados'          # Leitura da terceira linha
 >>> f.close()
 ```
-Por fim, há ainda o comando **readlines()** que returna uma lista das linhas do arquivo. todos os métodos de leitura apresentados aqui irão retornar um valor "vazio" quando chegam ao final do arquivo (End Of File - EOF).
+Por fim, há ainda o comando **readlines()** que returna uma lista das linhas do arquivo. todos os métodos de leitura apresentados aqui irão retornar um valor "vazio" quando chegam ao final do arquivo (End Of File - **EOF**).
 ``` phyton
 >>> f = open('teste.txt', 'r')
 >>> 
