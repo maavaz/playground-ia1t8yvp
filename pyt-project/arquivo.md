@@ -1,8 +1,8 @@
 # Arquivos em Python
 
 Até agora, os dados utilizados em nossos programas ou são inseridos diretamente no código ou são digitados pelo usuário a medida que são lidos. 
-Mas, no mundo real, armazenamos os dados em estruturas denominadas **"arquivos"**.  Um arquivo é um conjunto de dados que se relacionam de alguma forma, representando alguma informação ou conjunto de informações das mais diversas naturezas como imagens, áudio, texto, instruções para processadores, etc.
-Um arquivo é quase sempre representado por um nome (seguido de um ponto euma extensão) e são armazenados em dispositivos permanentes, isto é, são dispositivos que mantém os dados de maneira permanente.
+Mas, no mundo real, armazenamos os dados em estruturas denominadas **"arquivos"**.  Um arquivo é um conjunto de dados que se relacionam de alguma forma, representando alguma informação ou conjunto de informações das mais diversas natureza como imagens, áudio, texto, instruções para processadores, etc.
+Um arquivo é quase sempre representado por um nome (seguido de um ponto e uma extensão de três letras) e são armazenados em dispositivos permanentes, isto é, são dispositivos que mantém os dados de maneira perene.
 
 ### Por que usar arquivos?
 
