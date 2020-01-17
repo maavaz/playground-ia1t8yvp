@@ -40,7 +40,7 @@ Out[4]: 20
 In [5]: func['nome']
 Out[5]: 'José'
 ```
-Outra forma de acesso é feito através da função **get(chave)**:
+Outra forma de acesso é feito através da função **get(chave)**, onde é obtido o valor associado a chave:
 ``` python
 In [7]: sal = func.get('salario')
 
