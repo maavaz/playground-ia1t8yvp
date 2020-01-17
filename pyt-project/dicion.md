@@ -15,6 +15,23 @@ In [2]: func = {"matricula":123, "nome": "José", "idade": 20, "salario": 9200.4
 In [3]: func
 Out[3]: {'matricula': 123, 'nome': 'José', 'idade': 20, 'salario': 9200.45}
 ```
+
+A função **dict()** constroi dicionários a partir de uma lista de tuplas  
+``` python
+In [1]: d = dict([('Ana',20),('Clara',25),('Pedro',21)])
+
+In [2]: d
+Out[2]: {'Ana': 20, 'Clara': 25, 'Pedro': 21}
+```
+
+Através da atribuição direta de valores:
+``` python
+In [3]: cts = dict(pi=3.14, e=2.7, alpha=1/137)
+
+In [4]: cts
+Out[4]: {'pi': 3.14, 'e': 2.7, 'alpha': 0.0072992700729927005}
+```
+
 O acesso aos dados de um dicionário, é semelhante ao formato das listas, usando o nome da chave entre 'colchetes' em vez de um índice numérico. 
 ``` python
 In [4]: func['idade']
