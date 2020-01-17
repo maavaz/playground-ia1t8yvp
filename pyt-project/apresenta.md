@@ -10,4 +10,5 @@ Neste material veremos entre outras coisas:
 + Testes para fixação dos conceitos
 + Exercícios de programação
 
+
 Esse material não irá esgotar todos os pontos que serão apresentados e, por isso, aconselhamos, para quem desejar se aprofundar, pesquisar outros materiais.
