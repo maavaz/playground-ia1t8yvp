@@ -113,5 +113,25 @@ ValueError                                Traceback (most recent call last)
 
 ValueError: 'Marco' is not in list
 ```
+#### Ordenar os elementos da Lista
+
+Para ordenar os elementos de uma lista utilizamos o método **sort()**.
+``` python
+In [13]: lista = [6,8,4,9,2,3]
+
+In [14]: lista
+Out[14]: [6, 8, 4, 9, 2, 3]
+
+In [15]: lista.sort()
+
+In [16]: lista
+Out[16]: [2, 3, 4, 6, 8, 9]
+
+In [17]: lista.sort(reverse=True)   # Organiza os elementos na ordem inversa
+
+In [18]: lista
+Out[18]: [9, 8, 6, 4, 3, 2]
+
+```
 **OBS:** Existem vários outros métodos para manipulação de listas, mas, estes métodos, serão apresentados caso haja necessidade. Do contrário, sugiro fazer uma busca na web sobre o tema.
 
