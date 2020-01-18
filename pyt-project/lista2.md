@@ -77,6 +77,25 @@ In [21]: lista2.remove(12)  #remove o elemento de valor 12 da lista
 In [22]: lista2
 Out[22]: [7, 8, 9, 10, 11]
 ```
+#Incluir vários elementos
+
+É possível incluir vários elementos (dispostos em uma lista) a lista atual, através do método **extend()**. Esse método estende a lista atual adicionando todos os itens da lista (passados como argumento) ao final. 
+``` python
+In [1]: alunos=['Ana', 'Bruno', 'Clara']
+
+In [2]: alunos
+Out[2]: ['Ana', 'Bruno', 'Clara']
+
+In [3]: novos_alunos=['Hugo', 'Katia', 'Mônica']
+
+In [4]: novos_alunos
+Out[4]: ['Hugo', 'Katia', 'Mônica']
+
+In [5]: alunos.extend(novos_alunos)
+
+In [6]: alunos
+Out[6]: ['Ana', 'Bruno', 'Clara', 'Hugo', 'Katia', 'Mônica']
+```
 
 **OBS:** Existem vários outros métodos para manipulação de listas, mas, estes métodos, serão apresentados caso haja necessidade. Do contrário, sugiro fazer uma busca na web sobre o tema.
 
