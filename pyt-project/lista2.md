@@ -96,6 +96,22 @@ In [5]: alunos.extend(novos_alunos)
 In [6]: alunos
 Out[6]: ['Ana', 'Bruno', 'Clara', 'Hugo', 'Katia', 'Mônica']
 ```
+#### Descobrindo a posição de um item
 
+Suponha que você deseje saber onde está um determinado elemento em uma lista. Para isso, o python provê o método **index()** que retorna a posição do elemento na lista.
+``` python
+In [7]:alunos.index('Clara')
+Out[7]: 2                     # Clara está na posição 2 da lista
+```
+Se você utilizar o método **index()** para um item que não está na lista, o python irá retonar um erro.
+``` python
+In [8]: alunos.index('Marco')
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-12-dbe05a01759e> in <module>()
+----> 1 alunos.index('Marco')
+
+ValueError: 'Marco' is not in list
+```
 **OBS:** Existem vários outros métodos para manipulação de listas, mas, estes métodos, serão apresentados caso haja necessidade. Do contrário, sugiro fazer uma busca na web sobre o tema.
 
