@@ -72,7 +72,7 @@ Out[11]:
  'ano': 2020,
  'preco': 89.99}
 
-In [12]: carro['versao']='Longitude 1.8 Flex AT'
+In [12]: carro['versao']='Longitude 1.8 Flex AT'  # Alterando o  valor da chave 'versao'
 
 In [13]: carro
 Out[13]: 
@@ -81,18 +81,18 @@ Out[13]:
  'ano': 2020,
  'preco': 89.99}
 
-In [14]: del carro['marca']
+In [14]: del carro['marca']                        # Deletando o par 'marca': 'Jeep'
 
 In [15]: carro
 Out[15]: {'versao': 'Longitude 1.8 Flex AT', 'ano': 2020, 'preco': 89.99}
 
-In [16]: carro.popitem()
+In [16]: carro.popitem()                            # Deletando o ultimo par do dicionário
 Out[16]: ('preco', 89.99)
 
 In [17]: carro
 Out[17]: {'versao': 'Longitude 1.8 Flex AT', 'ano': 2020}
 
-In [18]: carro.clear()
+In [18]: carro.clear()                              # Deletando todo dicionário
 
 In [19]: carro
 Out[19]: {}
