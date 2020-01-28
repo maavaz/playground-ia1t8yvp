@@ -30,9 +30,11 @@ Out[3]: 3.141592653589793
 
 É possível importar todas as funções e variáveis de uma biblioteca usando o comando: 
 
-```
-from módulo import *   # a lista de funções é substituída pelo asterisco que indica “todos”. 
-```
+
+![funcao](/imagens/import_asterisco.png)
+
+A lista de funções é substituída pelo asterisco (*) que indica “todos”. 
+ 
 -Exemplo:
 ``` python
 In[1]: from math import *     # Importando todas as funções da biblioteca math
