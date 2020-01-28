@@ -48,9 +48,9 @@ In[3]: sin(60)
 Out[3]: 0.70710678118654746 
 ```
 + Indireta - Nesse caso todo o módulo é importado e as funções e variáveis são acessadas com o nome do módulo seguido de um ponto e do nome da função (**módulo.função**). O comando usado para a importação indireta é:
-```
-import módulo
-```
+
+![funcao](/imagens/import_mod.png)
+ 
 #### Exemplo
 ``` python
 In[1]: import math          #Importando todas as funções da biblioteca math
