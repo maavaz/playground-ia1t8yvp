@@ -10,12 +10,11 @@ Para poder usar as funções é necessário importá-las de uma biblioteca/módu
 seção. Comumente a importação é feita no inicio da seção, entretanto ele pode ser feita em qualquer momento.
 Existem 2 maneiras de se importar:
 + Direta - Nesse caso, importa-se apenas a função ou funções que se deseja usar. O comando geral para a importação direta é:
-```
-       from módulo import função1, função2,... ,funçãon
+
+![funcao](/imagens/import.png)
        
-      - “módulo” é o nome do módulo contendo as funções que se quer importar 
-      - “função1”, “função2”,... são os nomes das funções.
-```
+**módulo** é o nome do módulo contendo as funções (função 1, função 2 ..., função N) que se quer importar. 
+
 #### Exemplo
 ``` python
 In[1]:  from math import sin, pi          #importando apenas as funções sin e pi da biblioteca math
