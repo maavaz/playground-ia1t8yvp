@@ -4,9 +4,9 @@ Compreensão de Listas (CL) é uma funcionalidade muito poderosa da linguagem Py
 original. Semelhante a notação de conjuntos da matemática. Permite a Economia de código, pois é escrita em uma linha apenas. O formato geral da compreensão é:
 ![funcao](/imagens/compreensão.png)
 
-+ Um exemplo simples:
-     S = {x | x &isin; N,x < 10},             em python: **S = [x for x in range(0, 10)]**
-     S = {x | x &isin; Z, x < 20, x é par}    em python: **S = [x for x in range(0, 20) if x % 2 == 0]**
++ Um exemplo simples:<br>
+     S = {x | x &isin; N,x < 10},             em python: **S = [x for x in range(0, 10)]** <br>
+     S = {x | x &isin; Z, x < 20, x é par}    em python: **S = [x for x in range(0, 20) if x % 2 == 0]**<br>
 {x: x é um número inteiro menor que 20, x é ímpar}
 {x: x é uma letra na palavra ‘MATEMÁTICA’, x é uma vogal}
 Agora vejamos os códigos Python correspondentes em CL, na mesma ordem:
