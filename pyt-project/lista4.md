@@ -18,6 +18,7 @@ cores = ['Verde', 'Vermelho', 'Branco', 'Preto', 'Azul', 'Amarelo']
 
 ``` python
 lista = ['ab'] * 5
+
 print(lista)
 ```
 ?[Ao executar o trecho de código acima, o que será exibido? ]
@@ -28,7 +29,9 @@ print(lista)
 
 ``` python
 a=[1,2,3,4,5,6,7,8,9]
+
 b = a[::2] + a[1::2]
+
 print(b)
 ```
 ?[Ao executar o trecho de código acima, o que será exibido? ]
@@ -37,7 +40,12 @@ print(b)
 -[ ] [9, 8, 7, 6, 5, 4, 3, 2, 1]]
 -[ ] Erro de Sintaxe!!! 
 
-?[Dada a seguinte linha de comando: print([len(x) for x in ['Peru', 'Chile', 'Brasil','Albania','Portugal']]). o que será exibido?]
+```python
+
+print([len(x) for x in ['Peru', 'Chile', 'Brasil','Albania','Portugal']])
+
+```
+?[Ao executar o trecho de código acima, o que será exibido?]
 -[ ] [0, 1, 2, 3, 4] 
 -[ ] [1, 1, 1, 1, 1]
 -[ ] ['Portugal', 'Albania', 'Brasil', 'Chile', 'Peru']
