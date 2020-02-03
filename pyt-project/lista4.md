@@ -36,6 +36,12 @@ print(b)
 -[x] [1, 3, 5, 7, 9, 2, 4, 6, 8]
 -[ ] [9, 8, 7, 6, 5, 4, 3, 2, 1]]
 -[ ] Erro de Sintaxe!!! 
+
+?[Dada a seguinte linha de comando: print([len(x) for x in ['Peru', 'Chile', 'Brasil','Albania','Portugal']]). o que será exibido?]
+-[ ] [0, 1, 2, 3, 4] 
+-[ ] [1, 1, 1, 1, 1]
+-[ ] ['Portugal', 'Albania', 'Brasil', 'Chile', 'Peru']
+-[x] [4, 5, 6, 7, 8] 
 ---
 
 #### Exercício 1
