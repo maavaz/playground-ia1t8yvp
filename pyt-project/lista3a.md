@@ -5,10 +5,11 @@ original. Semelhante a notação de conjuntos da matemática. Permite a Economia
 ![funcao](/imagens/compreensão.png)
 
 + Um exemplo simples:<br>
-     **S = {x | x &isin; N,x < 10}** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;em python:&nbsp;&nbsp; **S = [x for x in range(0, 10)]** <br><br>
-     **S = {x | x &isin; Z, x < 20, x é par}** &nbsp;&nbsp;&nbsp;em python:&nbsp;&nbsp; **S = [x for x in range(0, 20) if x % 2 == 0]**<br>
-{x: x é um número inteiro menor que 20, x é ímpar}
-{x: x é uma letra na palavra ‘MATEMÁTICA’, x é uma vogal}
+     **S = { x | x &isin; N,x < 10}** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;em python:&nbsp;&nbsp; **S = [x for x in range(0, 10)]** <br><br>
+     **S = { x | x &isin; Z, x < 20, x é par}** &nbsp;&nbsp;&nbsp;em python:&nbsp;&nbsp; **S = [x for x in range(0, 20) if x % 2 == 0]**<br><br>
+
+     **S = { x | x é uma letra na frase 'PROGRAMA DE COMPUTADOR', x é uma vogal}**&nbsp;&nbsp;&nbsp;em python:&nbsp;&nbsp; **S = [x for x in 'PROGRAMA DE COMPUTADOR' if x in ['A', 'E', 'I', 'O', 'U']]**
+     
 Agora vejamos os códigos Python correspondentes em CL, na mesma ordem:
 
 [x**2 for x in range(0, 10)]
