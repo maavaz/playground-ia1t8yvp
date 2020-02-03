@@ -1,7 +1,7 @@
 # Compreensão de Listas 
 
 **Compreensão de Listas (CL)** é uma funcionalidade muito poderosa da linguagem Python que possibilita criar uma lista nova aplicando uma função para cada elemento da lista
-original. Semelhante a notação de conjuntos da matemática. Permite a Economia de código, pois é escrita em uma linha apenas. O formato geral da compreensão é:
+original. Com a compreensão de lista é possível reduzir a expressão em um única linha, num formato semelhante a notação de conjuntos da matemática, economizando linhas de códigos. O formato geral da compreensão é:
 ![funcao](/imagens/compreensão.png)
 
 + Um exemplo simples:<br>
