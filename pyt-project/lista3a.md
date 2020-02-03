@@ -5,8 +5,8 @@ original. Semelhante a notação de conjuntos da matemática. Permite a Economia
 ![funcao](/imagens/compreensão.png)
 
 + Um exemplo simples:<br>
-     **S = { x | x &isin; N,x < 10}** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;em python:&nbsp;&nbsp; **S = [x for x in range(0, 10)]** <br><br>
-     **S = { x | x &isin; Z, x < 20, x é par}** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;em python:&nbsp;&nbsp; **S = [x for x in range(0, 20) if x % 2 == 0]**<br>
+     **S = { x | x &isin; N,x < 10}** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;em python:&nbsp;&nbsp; **S = [x for x in range(0, 10)]** <br><br>
+     **S = { x | x &isin; Z, x < 20, x é par}** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;em python:&nbsp;&nbsp; **S = [x for x in range(0, 20) if x % 2 == 0]**<br>
 
      **S = { x | x é uma letra na palavra 'BANANA', x é vogal}**&nbsp;&nbsp;em python:&nbsp;&nbsp; **S = [x for x in 'BANANA' if x in ['A', 'E', 'I', 'O', 'U']]**
      
