@@ -25,7 +25,9 @@ plan:
   - title: Manipulando Listas (Continuação)
     statement: /pyt-project/lista2.md   
   - title: Fatiamento (slicing)
-    statement: /pyt-project/lista3.md   
+    statement: /pyt-project/lista3.md  
+  - title: Compreensão de Listas
+    statement: /pyt-project/lista3a.md     
   - title: Exercitando
     statement: /pyt-project/lista4.md
   - title: Listas e Strings
