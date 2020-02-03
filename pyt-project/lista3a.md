@@ -24,7 +24,7 @@ print(S)
 S = [x for x in 'BANANA' if x in ['A', 'E', 'I', 'O', 'U']]
 print(S)
 ```
-A compreensão que num primeiro momento parace confusa, mas exige apenas exercício. Fazendo uma comparação com a estrutura for, considere o seguinte exemplo: <br>
+A compreensão que num primeiro momento parace confusa, exige apenas exercícios. Vamos Fazer uma comparação com a estrutura for considerndo o seguinte exemplo: <br>
 **S = {x | x x &isin; N, x &le; 100, x é uma raiz quadrada exata}** 
 
 Escrito utilizando a estrutura FOR:
