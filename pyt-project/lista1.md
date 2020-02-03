@@ -26,13 +26,14 @@ Out[4]: 7
 Podemos percorrer todos os elementos da lista utilizando a estrutura **for**. Isso pode ser feito de 2 maneiras vistas no exemplo abaixo.
 ``` python runnable
 semana = ['SEG', 'TER', 'QUA', 'QUI', 'SEX','SAB', 'DOM']
-# A variável i irá receber os valores inteiros de 0 até 6 - range(len(semana)) = range(7)
+
+# No exemplo abaixo, a variável i irá receber os valores inteiros de 0 até 6 - range(len(semana)) = range(7)
 for i in range(len(semana)):
     print(semana[i])
     
 print('-' * 10)    
 
-#Nesse exemplo a variável i receberá os valores da lista: SEG TER ....
+#No exemplo abaixo, a variável i receberá os valores da lista: SEG TER ....
 for i in semana:
     print(i)
 ```    
