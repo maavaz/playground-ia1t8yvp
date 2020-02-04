@@ -27,7 +27,9 @@ plan:
   - title: Fatiamento (slicing)
     statement: /pyt-project/lista3.md  
   - title: Compreensão de Listas
-    statement: /pyt-project/lista3a.md     
+    statement: /pyt-project/lista3a.md   
+  - title: Seleção em Listas
+    statement: /pyt-project/selebool.md       
   - title: Exercitando
     statement: /pyt-project/lista4.md
   - title: Listas e Strings
