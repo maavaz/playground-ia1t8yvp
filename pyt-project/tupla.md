@@ -2,7 +2,7 @@
 
 Do ponto de vista técnico, as listas funcionam bem para armazenar conjuntos de itens que podem sofrer alterações durante a vida de um programa, isto é, são mutáveis. Por outro lado, há situações que não gostaríamos que os valores de uma determinada lista fossem alterados. O python possui uma lista onde os valores armazenados são imutáveis, denominada de **Tuplas**.
 
-## Definindo uma tupla
+### <b> Definindo uma tupla </b>
 
 As tuplas se parecem exatamente com as listas, exceto por usarem parênteses no lugar de colchetes. Após a definição da tupla, pode-se acessar os elementos individualmente usando um índice, como é feito com as listas.
 ``` python
@@ -58,7 +58,7 @@ In [8]: for mat, nome, ender in alunos:    # Loop na Tupla alunos individualizan
 2222 Marco Rua Y
 3333 Pedro Rua Z
 ```
-### Atribuições de Tuplas
+### <b> Atribuições de Tuplas </b>
 
 De vez em quando, é necessário trocar entre si os valores de duas variáveis. Com operações de atribuição convencionais, temos que utilizar uma variável temporária. Por exemplo, para fazer a troca entre a e b:
 ```python
