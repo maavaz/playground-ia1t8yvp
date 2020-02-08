@@ -4,7 +4,7 @@ A biblioteca padrão do Python é muito extensa, oferecendo um amplo conjunto de
 Os módulos (funções) fornecem acesso à funcionalidade do sistema, bem como soluções padronizadas para muitos problemas que ocorrem em programação. 
 Alguns desses módulos são explicitamente projetados para incentivar e aprimorar a portabilidade de programas em Python, abstraindo os detalhes das diferentes plataformas.
 
-### Como usar os módulos e sua Funções
+### <b> Como usar os módulos e sua Funções </b>
 
 Para poder usar as funções é necessário importá-las de uma biblioteca/módulo. A importação de um módulo ou função só precisa ser feita uma única vez durante uma
 seção. Comumente a importação é feita no inicio da seção, entretanto ele pode ser feita em qualquer momento.
@@ -15,7 +15,7 @@ Existem 2 maneiras de se importar:
        
 **módulo** é o nome do módulo contendo as funções (função 1, função 2 ..., função N) que se quer importar. 
 
-#### Exemplo
+####  <b>Exemplo </b>
 ``` python
 In[1]:  from math import sin, pi          #importando apenas as funções sin e pi da biblioteca math
 
@@ -51,7 +51,7 @@ Out[3]: 0.70710678118654746
 
 ![funcao](/imagens/import_mod.png)
  
-#### Exemplo
+####  <b> Exemplo  </b>
 ``` python
 In[1]: import math          #Importando todas as funções da biblioteca math
 
