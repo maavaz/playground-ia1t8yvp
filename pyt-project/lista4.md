@@ -52,7 +52,7 @@ print([len(x) for x in ['Peru', 'Chile', 'Brasil','Albania','Portugal']])
 -[x] [4, 5, 6, 7, 8] 
 ---
 
-#### Exercício 1
+#### <b> Exercício 1 </b>
 ---
 Faça um programa que receba a temperatura média de cada mês do ano e armazene-as em uma lista. Após isto, calcule a média anual das temperaturas e mostre todas as temperaturas acima da média anual, e em que mês elas ocorreram (mostrar o mês por extenso: Janeiro, Fevereiro, . . . ).
 
@@ -86,7 +86,7 @@ for t in range(len(tempano)):
 ```
 :::
 ---
-#### Exercício 2
+#### <b> Exercício 2 </b>
 Quatro candidatos foram para o segundo turno nas eleições para presidente de um país da America do Sul:
 
     1 - Candidato A  2 - Candidato B  3 - Candidato C  4 - Candidato D. 
