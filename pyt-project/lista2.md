@@ -1,4 +1,4 @@
-### Concatenação e multiplicação
+### <b> Concatenação e multiplicação  </b>
 
 Uma lista pode ser unida a outra para formar uma nova lista, através do operador aritmético de soma **+**.
 
@@ -24,11 +24,11 @@ In [14]: listmulti
 Out[14]: [0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5]
 ```
 
-## Incluindo, alterando e removendo itens de uma lista
+## <b> Incluindo, alterando e removendo itens de uma lista  </b>
 
 Após a criação de uma lista, é possível adicionar, alterar e remover elementos dela à medida que seu programa executar. 
 
-#### Incluir itens na lista
+#### <b> Incluir itens na lista </b>
 
 Para incluir um elemento no final da lista usa-se o método **.append(valor)**, onde valor é o que se quer incluir na lista.
 ```python
@@ -52,7 +52,7 @@ Out[18]: [-1, 0, 1, 2, 3, 4, 5]
 ```
 
 
-#### Modificar itens na lista
+#### <b> Modificar itens na lista </b>
 
 Para modificar um elemento é semelhante à sintaxe para acessar um elemento de uma lista. Para alterar um elemento, use o nome da lista seguido do índice do elemento que você quer modificar e, então, forneça o novo valor que você quer que esse item tenha.
 ```python
@@ -64,7 +64,7 @@ In [19]: lista2[0] = 12 #Alterando o valor do item na primeira posição de 6 pa
 In [20]: lista2
 Out[20]: [12, 7, 8, 9, 10, 11]
 ```
-#### Remover itens na lista
+#### <b> Remover itens na lista </b>
 
 Para remover um elemento utiliza-se o método **.remove(valor)**. Esse valor deve pertencer a lista, do contrário dá erro.
 ```python
@@ -77,7 +77,7 @@ In [21]: lista2.remove(12)  #remove o elemento de valor 12 da lista
 In [22]: lista2
 Out[22]: [7, 8, 9, 10, 11]
 ```
-#### Incluir vários Itens na Lista
+#### <b> Incluir vários Itens na Lista </b>
 
 É possível incluir vários elementos (dispostos em uma lista) a lista atual, através do método **extend()**. Esse método estende a lista atual adicionando todos os itens da lista (passados como argumento) ao final. 
 ``` python
@@ -96,7 +96,7 @@ In [5]: alunos.extend(novos_alunos)
 In [6]: alunos
 Out[6]: ['Ana', 'Bruno', 'Clara', 'Hugo', 'Katia', 'Mônica']
 ```
-#### Descobrindo a posição de um item
+#### <b> Descobrindo a posição de um item </b>
 
 Suponha que você deseje saber onde está um determinado elemento em uma lista. Para isso, o python provê o método **index()** que retorna a posição do elemento na lista.
 ``` python
@@ -113,7 +113,7 @@ ValueError                                Traceback (most recent call last)
 
 ValueError: 'Marco' is not in list
 ```
-#### Ordenar os elementos da Lista
+#### <b> Ordenar os elementos da Lista </b>
 
 Para ordenar os elementos de uma lista utilizamos o método **sort()**.
 ``` python
