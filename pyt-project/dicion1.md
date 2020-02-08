@@ -1,6 +1,6 @@
 # Dicionários em Python
 
-### items(), keys() e values()
+### <b> items(), keys() e values() </b>
 
 Os dicionários são iteráveis, isto é, são objetos que podem ter os elementos da sequência percorridos um a um. A função **items()** retorna uma lista de tuplas com os pares “chave” : valor. A função **keys()** retorna uma lista apenas com as chaves do dicionário, enquanto que a função **values()** retorna uma lista apenas com os valores dos itens do dicionário. 
 ```python
@@ -28,7 +28,7 @@ nome: abacaxi       qtde: 25
 nome: laranja       qtde: 55
 ```
 
-### Lista de Dicionários 
+### <b> Lista de Dicionários </b> 
 
 Os dicionários também podem ser armazenados em listas, através dos métodos já conhecidos como atribuição direta à variável, ou ainda, por meio do método **append()**.
 ``` python
@@ -62,7 +62,7 @@ cruze  :   101190
 tracker  :   92950
 
 ```
-### Associar uma lista de valores a uma chave
+### <b> Associar uma lista de valores a uma chave </b>
 
 Pode-se associar múltiplos valores a uma chave, isso pode ser feito por meio de uma lista de valores. 
 ``` python
@@ -108,7 +108,7 @@ Tipo: tracker Precos:
 92950
 95900
 ```
-### Transformando listas em Dicionário
+### <b> Transformando listas em Dicionário </b>
 
 Há várias maneiras de se ralizar a conversão de listas em dicionários. Um dicionário é um elemento que contém itens chave-valor e, por isso, é necessário utilizarmos duas listas para a cconversão em um dicionário (é possível usar apenas uma). Utilizamos
 duas listas com a mesma quantidade de elementos em um dicionário juntamente com a função **zip()** do Python. Essa função retorna uma lista contendo tuplas, onde o primeiro valor é o da primeira lista, e o segundo valor da tupla, corresponde a segunda lista. 
