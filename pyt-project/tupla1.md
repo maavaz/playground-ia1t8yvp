@@ -11,7 +11,7 @@
 - [ ] Dicionário
 - [ ] Vetor
 
-#### Exercício 1
+#### <b> Exercício 1 </b>
 ---
 Faça um programa para calcular o valor pago no pedido de um usuário em uma lanchonete. Para isso, o programa deve receber do usuário, os códigos dos sanduiches e as respectivas quantidades. Calcule e mostre o nome do sanduiche, valor unitario, quantidade e o valor a ser pago pelo item  e o total geral do pedido.
 O programa termina quando o código do sanduiche for igual a 0 (zero).
@@ -61,7 +61,7 @@ imprimenota(pedido)
 :::
 
 ---
-#### Exercício 2
+#### <b> Exercício 2 </b>
 ---
 Faça um programa para ajudar o administrador de rede de uma empresa que precisa saber qual o espaço em disco ocupado pelos arquivos dos usuários, e identificar os usuários com maior espaço ocupado. A entrada do programa é a lista abaixo onde cada linha possui o nome do usuário e o total (em bytes) ocupado pelos arquivos:<br>
 alexandre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;456123789<br>
