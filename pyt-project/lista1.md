@@ -1,11 +1,11 @@
-### Operadores de lista
+###  <b> Operadores de lista </b>
 A linguagem Python dispõe de vários métodos e operadores para auxiliar na manipulação de listas. O operador de acesso aos itens de uma lista permite acessar o conteúdo (item) a partir de um índice que marca a posição do item no conjunto. Para compreendê-lo, é importante entender como os dados são armazenados nessa estrutura:
 
 ![lista](/imagens/lista.gif)
 
 O primeiro elemento da lista está posicionado sempre na posição 0 (zero) e o útimo na posição n - 1, onde n é o comprimento da lista. Note pela figura que o python permite acessar os elementos na ordem inversa utilizando um índice negativo. Nesse, caso o primeiro elemento está na posição -1 e o último na posição -n, onde n é o comprimento da lista.
 
-Exemplos:
+ <b>Exemplos: </b>
 ``` python
 In [1]: semana = ['SEG', 'TER', 'QUA', 'QUI', 'SEX','SAB', 'DOM']  # Criando a Lista SEMANA
 
@@ -15,7 +15,7 @@ Out[2]: 'QUI'
 In [3]: semana[-4] #Acessando o conteúdo do quarto elemento da lista utilizando o índice negatico (índice = -4)
 Out[3]: 'QUI'
 ```
-#### Comprimento da Lista
+#### <b> Comprimento da Lista </b>
 
 É possível saber o comprimento (número de itens) de uma lista, através da função **len()**, como mostra o exemplo abaixo.
 ``` python
@@ -37,7 +37,7 @@ print('-' * 10)
 for i in semana:
     print(i)
 ```    
-### Pesquisando itens em uma lista
+### <b>Pesquisando itens em uma lista </b>
 Em algumas vezes é preciso verificar se um determinado valor está contido em uma lista. Para isso, utilizamos o operador **in**, que indicará se valor pertence a lista (True), e False caso contrário. A seguir um exemplo de uso desse operador:
 
 ```python runnable
