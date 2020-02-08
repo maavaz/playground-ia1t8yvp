@@ -6,12 +6,12 @@ Os tipos de dados estruturado são dados compostos que funcionam como coleções
 + Dicionários.  
 + Sets
 
-### Listas
+###  <b> Listas  </b>
 O tipo de dado lista é uma coleção de itens, armazenados em um lugar e dispostos em uma ordem em particular. Esse conjunto de itens está organizado de forma linear, na qual cada um pode ser acessado a partir de um índice, que representa sua posição na coleção (iniciando em zero).
 A forma geral para se definir uma Lista é:
 ![funcao](/imagens/nlista.png)
 
-exemplos de criação de listas
+ <b> Exemplos de criação de listas </b>
 ``` python
 In [1]: lista = []   #Criando uma Lista vazia
 
