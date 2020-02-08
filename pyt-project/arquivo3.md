@@ -18,7 +18,7 @@
 -[x] f.readline ()
 -[ ] f.readlines ()
 ---
-### Exercício 1 (Desafio)
+### <b> Exercício 1 (Desafio) </b>
 
 
 **ATENÇÃO:** Para execução do exercício é necessário que você abra uma nova aba (nomeie como **alunos.tx**) no **Editor Trinket** abaixo, copie e cole os dados apresentados, a seguir. Após feito isso, retorne a aba **main.py** e desenvolva a solução do problema descrito abaixo. 
