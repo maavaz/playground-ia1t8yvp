@@ -26,7 +26,7 @@ A forma geral para criação da Função Lambda é:
 
 As **variáveis** que aparecem na definição da função são os parâmetros e **fórmula** é a expressão da função.
 
-Exemplo:
+ <b> Exemplo:  </b>
 ```
 In [1]: cubo = lambda numero: numero * numero * numero
 In [2]: cubo(3)
