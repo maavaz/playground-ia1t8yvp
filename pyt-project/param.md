@@ -1,7 +1,7 @@
 # Passagem de Parâmetros para as Funções em Python
 Além da forma padrão de passar parâmetros/argumentos para as funções, há outras formas que serão apresentadas a seguir:
 
-### Parâmetros com Valor Padrão
+###  <b> Parâmetros com Valor Padrão  </b>
 
 Pode-se definir um valor padrão para os argumentos e, na ausência de valor na chamada, a função usuará o padrão.
 ``` python runnable
@@ -18,7 +18,7 @@ print('soma2 = ',soma)
 
  ```
 
-### parâmetros com palavra chave
+###  <b> Parâmetros com palavra chave  </b>
 Pode-se passar argumentos com valores até para os argumentos posicionais bastando explicitar o nome da variável e até em uma ordem diferente daquela originalmente definida.
 Exemplo:
 ``` python runnable
