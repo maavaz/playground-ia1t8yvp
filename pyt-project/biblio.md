@@ -35,7 +35,7 @@ Out[3]: 3.141592653589793
 
 A lista de funções é substituída pelo asterisco (*) que indica “todos”. 
  
-####  <b> Exemplo  </b>
+####  <b> Exemplo </b>
 ``` python
 In[1]: from math import *     # Importando todas as funções da biblioteca math
 
@@ -51,7 +51,7 @@ Out[3]: 0.70710678118654746
 
 ![funcao](/imagens/import_mod.png)
  
-####  <b> Exemplo  </b>
+####  <b> Exemplo </b>
 ``` python
 In[1]: import math          #Importando todas as funções da biblioteca math
 
