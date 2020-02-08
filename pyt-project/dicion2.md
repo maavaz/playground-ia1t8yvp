@@ -26,7 +26,7 @@
 
 ---
 
-### Exercício 1
+### <b> Exercício 1 </b>
 ---
 
 Faça um programa para contar e exibir a quantidade e o percentual de cada vogal em uma frase digitada pelo usuário na entrada. Utilize a estrutura de dicionário para armazenar os contadores das vogais. Utilize uma das funções **upper()** ou **lower()** para comparação dos caracteres, pois em computação caracteres maiúsculos e minúsculos são diferentes. Na criação do dicionário de vogais, inicialize valor com 0(zero).
