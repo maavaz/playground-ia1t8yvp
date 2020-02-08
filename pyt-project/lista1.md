@@ -1,4 +1,4 @@
-###  <b> Operadores de lista </b>
+### <b> Operadores de lista </b>
 A linguagem Python dispõe de vários métodos e operadores para auxiliar na manipulação de listas. O operador de acesso aos itens de uma lista permite acessar o conteúdo (item) a partir de um índice que marca a posição do item no conjunto. Para compreendê-lo, é importante entender como os dados são armazenados nessa estrutura:
 
 ![lista](/imagens/lista.gif)
