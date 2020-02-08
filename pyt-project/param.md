@@ -50,7 +50,7 @@ print('soma3 =', soma)
 
 **OBS:** Você não pode usar argumentos posicionais depois dos argumento com palavra chave “(b=0, c=1, 10)”.
 
-Erro:
+ <b> Erro:  </b>
 ```
 File "main.py", line 29
     soma = ex_soma_2(b=0, a=2, 10)
