@@ -26,7 +26,7 @@ In [7]: palavras = str.split()   # Cria a lista palavras com 2 strings
 In [8]: palavras
 Out[8]: ['Programação', 'Python']
 ```
-A função split pode ter um argument, chamado delimiter, para especificar quais caracteres podem ser usados para demonstrar os limites das palavras (o padrão é o espaço). O exemplo seguinte usa um hífen como delimitador:
+A função  <b>split() </b> pode ter um argumento, chamado delimiter, para especificar quais caracteres podem ser usados para demonstrar os limites das palavras (o padrão é o espaço). O exemplo seguinte usa um hífen como delimitador:
 ``` python
 In [9]: str = 'Aprenda+programação+Python'
 
