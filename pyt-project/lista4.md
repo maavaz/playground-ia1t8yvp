@@ -86,7 +86,7 @@ for t in range(len(tempano)):
 ```
 :::
 ---
-#### <b> Exercício 2 </b>
+#### <b>Exercício 2 </b>
 Quatro candidatos foram para o segundo turno nas eleições para presidente de um país da America do Sul:
 
     1 - Candidato A  2 - Candidato B  3 - Candidato C  4 - Candidato D. 
