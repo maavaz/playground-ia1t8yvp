@@ -4,7 +4,7 @@ Até agora, os dados utilizados em nossos programas ou são inseridos diretament
 Mas, no mundo real, armazenamos os dados em estruturas denominadas **"arquivos"**.  Um arquivo é um conjunto de dados que se relacionam de alguma forma, representando alguma informação ou conjunto de informações das mais diversas natureza como imagens, áudio, texto, instruções para processadores, etc.
 Um arquivo é quase sempre representado por um nome (seguido de um ponto e uma extensão de três letras) e são armazenados em dispositivos permanentes, isto é, são dispositivos que mantém os dados de maneira perene.
 
-### Por que usar arquivos?
+### <b> Por que usar arquivos? </b>
 
 + Permitem armazenar grande quantidade de informação;
 + Dados não são perdidos (persistência dos dados);
@@ -16,7 +16,7 @@ Em geral, as operações com arquivos seguem uma ordem, a saber:<br>
 &nbsp;&nbsp;&nbsp;**2 -** Efetuar operações de **Leitura e Gravação** dos dados <br>
 &nbsp;&nbsp;&nbsp;**3 - fechar** o(s) arquivo(s) <br>
 
-### Abertura e fechamento dos Arquivos
+### <b>Abertura e fechamento dos Arquivos </b>
 
 Para que um arquivo possa ser utilizado (leitura/gravação) é necessário abri-lo (comando open) antes de usá-lo e fechar (comando close) os arquivos quando tiver terminado de utilizá-lo. 
 Os formatos gerais para utilizar esses comandos é apresentado abaixo:<br>
@@ -33,7 +33,7 @@ Os formatos gerais para utilizar esses comandos é apresentado abaixo:<br>
 + **Caminho relativo:** descrição de um caminho desde o diretório corrente (onde o programa está salvo) <br>
                    **arquivo.txt ou ..\dados.txt**<br>
                    
-### Modo de Abertura
+### <b> Modo de Abertura </b>
 O modo de abertura de arquivos em python define a operação que será realizada no arquivo, por exemplo, se queremos ler dados colocamos no comado open a letra **'r'**, se queremos gravar dados colocamos a letra **'w'**, mas se queremos gravar dados em arquivos já existentes colocamos a letra **'a' (append)** no comando. Por padrão, a gravação e leitura dos dados é efetuada no modo texto, mas se quisermos abrir o arquivo para leitura ou gravação de dados binários devemos especificar usando a letra **'b'**. O modo binário retorna bytes e esse é o modo a ser usado ao lidar com arquivos não-texto, como arquivos de imagem ou exe.
 
 ``` python
