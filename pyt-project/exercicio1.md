@@ -51,7 +51,7 @@ imprime('Programar')
 -[ ] Erro de Sinataxe!!!
 
 _--
- ####  <b> Exercício 1  </b>  
+ ####  <b> Exercício 1 </b>  
 ---
 
 Faça um programa que leia duas notas de um aluno numa turma de 10 alunos. Para cada aluno, calcular a média ponderadas das notas, sabendo que a <b>nota1</b> tem <b>peso = 4</b> e a <b>nota2</b> tem <b>peso = 6</b>. Imprimir a média do aluno e o conceito final, conforme tabela abaixo:
@@ -96,7 +96,7 @@ for i in range(10):
 :::
 
 ---   
- ####  <b> Exercício 2   </b>
+ ####  <b> Exercício 2 </b>
 ---
 
 Faça um programa para calcular o valor das parcelas de um financiamento no regime de juros compostos com capitalização mensal para uma quantidade indeterminada de pessoas. O programa deverá ler o valor do financiamento e o número de parcelas, calcular e exibir o valor da parcela. O programa termina quando o valor do financiamento for igual a zero. Abaixo apresentamos a tabela contendo os prazos de financiamentos e a taxa de juros anual:
@@ -147,7 +147,7 @@ while divida != -1:
 ```    
 :::
 ---
- ####  <b> Exercício 3  </b>  
+ ####  <b> Exercício 3 </b>  
 ---
 
 A padaria Sópão vende diariamente uma certa quantidade de pães franceses e uma quantidade de broas. Cada pãozinho custa R$ 0,80 e a broa custa R$ 2,50. Do total arrecadado, 43% corresponde aos custos de fabricação. Do restante, Seu joão guarda 15% numa conta de poupança e 15% ele converte em Euros para sua viagem Anual. Sabe-se que 1 Euro custa R$ 4,60. Com base nestes fatos, faça um progrma para ler as quantidades de pães e de broas, calcular a venda total de pãos e broas, o custo de fabricação, quanto irá guardar na poupança e quantos euros irá comprar. Ao final exibir os dados calculados.
