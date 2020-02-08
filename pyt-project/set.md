@@ -2,7 +2,7 @@
 
 **Set** é uma coleção (estrutura de dados) não ordenada e não indexada de itens únicos. Os **Sets** podem ser usados para executarem operações matemáticas de conjuntos, tais como: união, interseção, etc.
 
-## Criando e acessando dados em Sets
+### <b> Criando e acessando dados em Sets </b>
 
 Um **set** é criado colocando-se os seus the itens (elementos) entre **chaves ({})**, separados por vírgulas ou usando a função pré-definida **set()**, que transforma sequências de valores em **sets**.
 ``` python
@@ -31,7 +31,7 @@ Out[28]: set()
 
 ```
  
- ## Incluindo, Alterando itens e Excluindo itens em Sets
+ ### <b> Incluindo, Alterando itens e Excluindo itens em Sets </b>
  
 **Set** são mutáveis mas, como não são ordenados, a indexação não tem significado. Logo, não podemos acessar ou alterar um elemento do conjunto usando indexação ou slice, conjunto não suporta.
 
