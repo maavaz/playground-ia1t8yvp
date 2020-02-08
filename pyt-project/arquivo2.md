@@ -1,6 +1,6 @@
 # Arquivos
 
-## Gravando dados em um arquivo
+### <b> Gravando dados em um arquivo </b>
 
 Para se gravar dados em um arquivo é necessário que seja usado o modo **'w'** na função **open()**. A seguir, para que os dados sejam gravados, utiliza-se a função **write()** para escrever no arquivo aberto. O comando **write()** retorna sempre a quantidade de dados gravados no arquivo. Isso é útil quando for necessário controlar a gravação dos dados, explicado mais a frente.   
 ``` python
@@ -25,7 +25,7 @@ Isso e um teste de gravação<br>
 gravando a segunda linha<br>
 Incluindo nova linha no arquivo<br>
 
-### Abrindo arquivo no modo r+
+### <b> Abrindo arquivo no modo r+ </b>
 O modo **'r+'** permite tanto a leitura quanto a escrita em arquivos. O controle de gravação dos dados no arquivo é do programador. A posição de início de gravação dos dados ao abrir o arquivo neste modo é 0 (zero), portanto, se houver necessidade de gravar dados, o programador deverá considerar a quantidade de dados gravados, para posicionar o cursor na nova posição de gravação. Se não houver essa preocupação na movimentação da posição gravação, o programa irá sempre realizar a gravação do início (posição 0), sobrepondo o que foi gravado anteriormente. A função(comando) que possibilita posicionar o cursor do arquivo na próxima possição de gravação é **seek(posição)**.
 ``` python
 >>> f = open("novo_arquivo.txt", "r+")
