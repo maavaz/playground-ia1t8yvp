@@ -1,5 +1,5 @@
 ### Percorrendo string com comando <b>for</b>
-
+---
 Podemos percorrer todos os elementos (caracteres) de uma string utilizando o comando <b>for</b>, por exemplo:
 
 <b>frase = "Um teste"</b><br>
@@ -36,7 +36,7 @@ O melhor a ser feito é criar uma nova string que é uma variação do original:
 A string resultante em <b>novo_nome</b> será <b>"Milton"</b>
 
 ### Operadores **in** e **not in**
-
+---
 São operadores que efetuam testes de verificação, isto é, resultam em um valor **Falso** ou **Verdadeiro**, caso a string do lado esquerdo do operador **está ou não** contida na string do lado direito. Por exemplo:
 ``` python
 #Verifica a existencia da string caco em Macaco
