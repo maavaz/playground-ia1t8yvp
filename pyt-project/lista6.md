@@ -35,4 +35,6 @@ O melhor a ser feito é criar uma nova string que é uma variação do original:
 
 A string resultante em <b>novo_nome</b> será <b>"Milton"</b>
 
+### Operadores **in** e **not in**
+
 
