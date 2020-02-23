@@ -20,8 +20,8 @@ Execute o exemplo abaixo (sufixos na lingua inglesa):
 prefixos = "JKLMNOPQ"
 sufixo = "ack"
 
- for p in prefixos:
-     print(p + sufixo)
+for p in prefixos:
+    print(p + sufixo)
 ```
 ### Strings são Imutáveis
 
@@ -37,7 +37,7 @@ A string resultante em <b>novo_nome</b> será <b>"Milton"</b>
 
 ### Operadores **in** e **not in**
 
-São operadores que efetuam testes de verificação, isto é, resultam em um valor **Falso** ou **Verdadeiro** caso a string do lado esquerdo do operador está ou não contida na stringo do lado direito. Por exemplo:
+São operadores que efetuam testes de verificação, isto é, resultam em um valor **Falso** ou **Verdadeiro**, caso a string do lado esquerdo do operador **está ou não** contida na string do lado direito. Por exemplo:
 ``` python
 #Verifica a existencia da string caco em Macaco
 In [8]: "caco" in "Macaco"
