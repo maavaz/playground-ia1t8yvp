@@ -33,7 +33,9 @@ plan:
   - title: Exercitando
     statement: /pyt-project/lista4.md
   - title: Listas e Strings
-    statement: /pyt-project/lista5.md   
+    statement: /pyt-project/lista5.md  
+  - title: Listas e Strings (Continuação)
+    statement: /pyt-project/lista6.md     
   - title: Tuplas
     statement: /pyt-project/tupla.md     
   - title: Exercitando
