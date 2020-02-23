@@ -1,4 +1,4 @@
-### Percorrendo uma String com <b>for</b>
+### Percorrendo string com comando <b>for</b>
 
 Podemos percorrer todos os elementos (caracteres) de uma string utilizando o comando <b>for</b>, por exemplo:
 
@@ -36,5 +36,26 @@ O melhor a ser feito é criar uma nova string que é uma variação do original:
 A string resultante em <b>novo_nome</b> será <b>"Milton"</b>
 
 ### Operadores **in** e **not in**
+
+São operadores que efetuam testes de verificação, isto é, resultam em um valor **Falso** ou **Verdadeiro** caso a string do lado esquerdo do operador está ou não contida na stringo do lado direito. Por exemplo:
+``` python
+#Verifica a existencia da string caco em Macaco
+In [8]: "caco" in "Macaco"
+Out[8]: True
+
+#Verifica a existencia da string telo em Martelo
+In [9]: "telo" not in "Martelo"
+Out[9]: False
+```
+Execute os exemplos a seguir:
+``` python runnable
+print("Python"[1])
+print("Strings are sequences of characters."[5])
+print(len("wonderful"))
+print("Mystery"[:4])
+print("p" in "Papaia")
+print("pai" in "Papaia")
+print("pera" not in "peralta")
+```
 
 
