@@ -24,7 +24,7 @@ for p in prefixos:
     print(p + sufixo)
 ```
 ### Strings são Imutáveis
-
+---
 As strings não podem ser modificadas, isto é, você não pode alterar uma string existente. Por exemplo: </br>
 <b>nome = "Wilton"</b><br>
 <b>nome[0] = "M"          #isso produz um erro em tempo de execução TypeError </b><br>
