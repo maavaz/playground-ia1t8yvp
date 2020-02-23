@@ -27,11 +27,11 @@ sufixo = "ack"
 
 As strings não podem ser modificadas, isto é, você não pode alterar uma string existente. Por exemplo: </br>
 <b>nome = "Wilton"</b><br>
-<b>nome[0] = "M"    #isso produz um erro em tempo de execução TypeError: o objeto 'str' não suporta a atribuição de itens. </b><br>
+<b>nome[0] = "M"          #isso produz um erro em tempo de execução TypeError </b><br>
 
 O melhor a ser feito é criar uma nova string que é uma variação do original:</br>
 <b>nome = "Wilton"</b><br>
-<b>novo_nome = "M" + nome[1:]</b><br>
+<b>novo_nome = "M" + nome[1: ]</b><br>
 
 A string resultante em <b>novo_nome</b> será <b>"Milton"</b>
 
