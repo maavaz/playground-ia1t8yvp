@@ -18,8 +18,20 @@ e</br>
 Execute o exemplo abaixo (sufixos na lingua inglesa):
 ``` python runnable
 prefixos = "JKLMNOPQ"
-sufixos = "ack"
+sufixo = "ack"
 
- for p in prefixes:
-     print(p + suffix)
+ for p in prefixos:
+     print(p + sufixo)
 ```
+### Strings são Imutáveis
+
+As strings não podem ser modificadas, istoé, você não pode alterar uma string existente. Por exemplo:
+<b>nome = "Wilton"</b><br>
+<b>nome[0] = "M"    #isso produz um erro em tempo de execução TypeError: o objeto 'str' não suporta a atribuição de itens. </b><br>
+
+O melhor a ser feito é criar uma nova string que é uma variação do original:
+<b>nome = "Wilton"</b><br>
+<b>novo_nome = "M" + nome[1:]</b><br>
+A string resultante em novo_nome será "Milton"
+
+
