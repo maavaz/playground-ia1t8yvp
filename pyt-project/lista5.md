@@ -2,7 +2,7 @@
 
 Uma string é uma sequência de caracteres e uma lista é uma sequência de valores, mas uma lista de caracteres não é a mesma coisa que uma string. Mas, em ambos os casos você pode individualizar os itens (caracteres) utilizando índices. O comando **list** é usado para conversão de uma string em uma lista de caracteres:
 ``` python
-In [1]: str = 'Programação Python' # Criação de uma string
+<b>In [1]: str = 'Programação Python' # Criação de uma string
 
 In [2]: str[0] #Primeiro caracter da String
 Out[2]: 'P'
@@ -15,7 +15,7 @@ Out[4]: 'Python'
 In [5]: listastr = list(str) # Transformando uma string numa lista de caracteres
 
 In [6]: listastr  
-Out[6]:  ['P', 'r', 'o', 'g', 'r', 'a', 'm', 'a', 'ç', 'ã', 'o',' ', 'P', 'y', 't', 'h', 'o', 'n']
+Out[6]:  ['P', 'r', 'o', 'g', 'r', 'a', 'm', 'a', 'ç', 'ã', 'o',' ', 'P', 'y', 't', 'h', 'o', 'n']</b>
 ```
 
 O método **.split()** pode ser usado para quebrar uma string (com várias palavras) numa lista de strings (palavras):
