@@ -4,22 +4,6 @@ Podemos percorrer todos os elementos (caracteres) de uma string utilizando o com
 
 <b>frase = "Isso é um teste"</b><br>
 <b>for letra in frase:</b><br>
-<b>          print(letra)</b><br>
+<b>&nbsp;&nbsp;&nbsp;&nbsp;print(letra)</b><br>
 <b>Resultado:</b><br>
-I
-s
-s
-o
 
-é
-
-u
-m
-
-t
-e
-s
-t
-e
-
-```
