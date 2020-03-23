@@ -70,7 +70,7 @@ print(b)
 ``` python runnable
 a = [2,3,4,5,6]
 
-b = [elemento ** 3 if elemento % 2 == 0 else elemento ** 2 for elemento in a]
+b = [elemento ** 2 if elemento % 2 == 0 else elemento ** 3 for elemento in a]
 
 print(b)
 ```
