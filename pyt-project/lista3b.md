@@ -75,7 +75,7 @@ b = [elemento ** 2 if elemento % 2 == 0 else elemento ** 3 for elemento in a]
 print(b)
 ```
 
-**Problema 4: ** Múltiplos *for** <br>
+**Problema 4: ** Múltiplos **for** <br>
 Criar uma lista **list** com os elementos pares da matriz 3x3 **mat** (apresentada abaixo). <br><br>
 
 ### Solução em python:
@@ -86,7 +86,7 @@ mat = [[2,3,4],
 list = []
 
 for linha in mat:
-  for elemento in linha
+  for elemento in linha:
     if elemento % 2 == 0:
        list.append(elemento)
 
