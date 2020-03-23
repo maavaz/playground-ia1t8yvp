@@ -46,5 +46,5 @@ a = [2,3,4,5,6]
 
 print([elemento ** 3 for elemento in a if elemento % 8 == 0])
 
-print(b)
+#print(b)
 ```
