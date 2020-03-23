@@ -44,7 +44,7 @@ print(b)
 ``` python runnable
 a = [2,3,4,5,6]
 
-b = [elemento ** 3 for elemento in [2,3,4,5,6] if elemento % 8 == 0]
+print([elemento ** 3 for elemento in a if elemento % 8 == 0])
 
 print(b)
 ```
