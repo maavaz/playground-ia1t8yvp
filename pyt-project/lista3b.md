@@ -16,6 +16,8 @@ print(b)
 
 ### Solução utilizando compressão:
 ``` python runnable
+a = [2,3,4,5, 6]
+
 b = [elemento ** 3 for elemento in a]
 
 print(b)
