@@ -28,6 +28,8 @@ plan:
     statement: /pyt-project/lista3.md  
   - title: Compreensão de Listas
     statement: /pyt-project/lista3a.md   
+  - title: Compreensão de Listas (Exemplos)
+    statement: /pyt-project/lista3b.md  
   - title: Seleção em Listas
     statement: /pyt-project/selebool.md       
   - title: Exercitando
