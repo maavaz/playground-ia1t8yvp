@@ -1,9 +1,9 @@
 # Passagem de Parâmetros para as Funções em Python
 Além da forma padrão de passar parâmetros/argumentos para as funções, há outras formas que serão apresentadas a seguir:
 
-###  <b> Parâmetros com Valor Padrão  </b>
+###  <b> Parâmetros com Valor Padrão (default)  </b>
 
-Pode-se definir um valor padrão para os argumentos e, na ausência de valor na chamada, a função usuará o padrão.
+Pode-se definir um valor padrão (default) para os argumentos e, na ausência de valor na chamada, a função usuará o padrão.
 ``` python runnable
 
 def ex_soma_1(a, b=10):  # foi definido o valor 10 como padrão de b. Caso não seja fornecido pelo programa a função usará esse valor
