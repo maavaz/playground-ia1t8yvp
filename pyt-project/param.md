@@ -17,6 +17,8 @@ soma = ex_soma_1(7, 3)  # Nesse caso usará o 3 como o valor de b
 print('soma2 = ',soma)
 
  ```
+**OBS:** Se apenas alguns argumentos têm default, esses devem ser os últimos para evitar ambiguidade na passagem de argumentos.
+
 
 ###  <b> Parâmetros com palavra chave  </b>
 Pode-se passar argumentos com valores até para os argumentos posicionais bastando explicitar o nome da variável e até em uma ordem diferente daquela originalmente definida.
@@ -43,7 +45,7 @@ z = 1000
 soma = ex_soma_2(x, y, z)  # essa chamada está correta 
 print('soma3 =', soma)
 
-# soma = ex_soma_2(b=0, a=2, 10) Essa chamada dará erro também. Veja a explicação a seguir
+# soma = ex_soma_2(y=0, x=2, 10) Essa chamada dará erro também. Veja a explicação a seguir
 # print('soma4 =', soma)
 
 ```
