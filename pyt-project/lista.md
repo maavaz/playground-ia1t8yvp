@@ -50,7 +50,7 @@ In [10]: nova_lista
 
 Out[10]: ['pedra', ['O carro', 'peixe', 123, 111]]  
 ```
-``` pyhton runnable
+```python runnable
 lista = []   #Criando uma Lista vazia
 
 print("lista = ", lista)
