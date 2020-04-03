@@ -50,4 +50,26 @@ In [10]: nova_lista
 
 Out[10]: ['pedra', ['O carro', 'peixe', 123, 111]]  
 ```
+``` pyhton runnable
+lista = []   #Criando uma Lista vazia
 
+print("lista = ", lista)
+
+x = [0, 1, 2, 3, 4, 5]  #Lista com todos os item de mesmo tipo (int)
+
+print("x =', x)
+
+semana = ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira','Sábado', 'Domingo']
+
+print("somana = ", semana)
+
+lista = ['O carro','peixe',123,111]        # Os elementos de uma lista não precisam ser do mesmo tipo
+ 
+print("lista = ", lista)
+
+nova_lista = ['pedra',lista] # um elemento da lista pode ser outra lista
+
+print("nova_lista = ", nova_lista)
+
+
+```
