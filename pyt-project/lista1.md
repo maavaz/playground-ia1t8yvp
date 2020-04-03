@@ -54,7 +54,5 @@ semana = ['SEG', 'TER', 'QUA', 'QUI', 'SEX','SAB', 'DOM']
 if "QUA" in semana:
   print("QUA = Quarta-Feira")
 ```   
-### <b> Outro operadores de listas
-Abaixo apresentamos uma tablea com outros operadores de Listas:
 
 
