@@ -59,8 +59,11 @@ x = [0, 1, 2, 3, 4, 5]  #Lista com todos os item de mesmo tipo (int)
 
 print("x =", x)
 
-l = list(1,2,3,4,5)
-print(l)
+l = list((1,2,3,4,5))  # usando o método list() transforma uma sequência em lista
+print("l = ", l)
+
+l = list(range(5))    #criando listas com Range()
+print("l = ", l)
 
 semana = ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira','Sábado', 'Domingo']
 
