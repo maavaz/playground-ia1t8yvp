@@ -136,4 +136,4 @@ Out[18]: [9, 8, 6, 4, 3, 2]
 ### <b>Outros métodos para manipulação de listas</b>
 Existem outros métodos para manipulação de listas, apresentados na tabela abaixo:
 
-![lista](/imagens/lista.gif)
+![lista](/imagens/tabela_lista.png)
