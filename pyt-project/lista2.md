@@ -1,6 +1,6 @@
 ### <b> Concatenação e multiplicação  </b>
 
-Uma lista pode ser unida a outra para formar uma nova lista, através do operador aritmético de soma **+**.
+Uma lista pode ser unida a outra para formar uma nova lista, através do operador aritmético de **soma (+)**.
 
 ``` python
 In [8]: lista1 = [0, 1, 2, 3, 4, 5]
@@ -13,7 +13,7 @@ In [11]: lisconcat
 Out[11]: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
-Pode-se também gerar várias cópias dos itens de uma lista, através do operador aritmético de multiplicação *****.  
+Pode-se também gerar várias cópias dos itens de uma lista, através do operador aritmético de **multiplicação (*)**.  
 
 ``` python
 In [8]: lista1 = [0, 1, 2, 3, 4, 5]
