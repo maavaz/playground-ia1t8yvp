@@ -16,29 +16,29 @@ A forma geral para se definir uma Lista é:
 ```python runnable
 lista = []   #Criando uma Lista vazia
 
-cat("\n\nlista = ", lista)
+print("\n\nlista = ", lista)
 
 x = [0, 1, 2, 3, 4, 5]  #Lista com todos os item de mesmo tipo (int)
 
-cat("\n\nx =", x)
+print("\n\nx =", x)
 
 l = list((1,2,3,4,5))  # usando o método list() transforma uma sequência em lista
-cat("\n\nl = ", l)
+print("\n\nl = ", l)
 
 lrange = list(range(5))    #criando listas com Range()
-cat("\n\nlrange = ", lrange)
+print("\n\nlrange = ", lrange)
 
 semana = ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira','Sábado', 'Domingo']
 
-cat("\n\nsemana = ", semana)
+print("\n\nsemana = ", semana)
 
 lista = ['O carro','peixe',123,111]        # Os elementos de uma lista não precisam ser do mesmo tipo
  
-cat("\n\nlista = ", lista)
+print("\n\nlista = ", lista)
 
 nova_lista = ['pedra',lista] # um elemento da lista pode ser outra lista
 
-cat("\n\nnova_lista = ", nova_lista)
+print("\n\nnova_lista = ", nova_lista)
 
 
 ```
