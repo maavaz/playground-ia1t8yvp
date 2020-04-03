@@ -12,70 +12,33 @@ A forma geral para se definir uma Lista é:
 ![funcao](/imagens/nlista.png)
 
  <b> Exemplos de criação de listas </b>
-``` python
-In [1]: lista = []   #Criando uma Lista vazia
 
-In [2]: lista
-
-Out[2]: []   #lista vazia
-
-In [3]: x = [0, 1, 2, 3, 4, 5]  #Lista com todos os item de mesmo tipo (int)
-
-In [4]: x
-
-Out[4]: [0, 1, 2, 3, 4, 5]
-
-In [5]: semana = ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira','Sábado', 'Domingo']
-
-In [6]: semana
-
-Out[6]: 
-['Segunda-feira',
- 'Terça-feira',
- 'Quarta-feira',
- 'Quinta-feira',
- 'Sexta-feira',
- 'Sábado',
- 'Domingo']
- 
- In [7]: lista = ['O carro','peixe',123,111]        # Os elementos de uma lista não precisam ser do mesmo tipo
- 
-In [8]: lista
-
-Out[8]: ['O carro', 'peixe', 123, 111]
-
-In [9]: nova_lista = ['pedra',lista] # um elemento da lista pode ser outra lista
-
-In [10]: nova_lista
-
-Out[10]: ['pedra', ['O carro', 'peixe', 123, 111]]  
-```
 ```python runnable
 lista = []   #Criando uma Lista vazia
 
-print("lista = ", lista)
+cat("\n\nlista = ", lista)
 
 x = [0, 1, 2, 3, 4, 5]  #Lista com todos os item de mesmo tipo (int)
 
-print("x =", x)
+cat("\n\nx =", x)
 
 l = list((1,2,3,4,5))  # usando o método list() transforma uma sequência em lista
-print("l = ", l)
+cat("\n\nl = ", l)
 
-l = list(range(5))    #criando listas com Range()
-print("l = ", l)
+lrange = list(range(5))    #criando listas com Range()
+cat("\n\nlrange = ", lrange)
 
 semana = ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira','Sábado', 'Domingo']
 
-print("somana = ", semana)
+cat("\n\nsemana = ", semana)
 
 lista = ['O carro','peixe',123,111]        # Os elementos de uma lista não precisam ser do mesmo tipo
  
-print("lista = ", lista)
+cat("\n\nlista = ", lista)
 
 nova_lista = ['pedra',lista] # um elemento da lista pode ser outra lista
 
-print("nova_lista = ", nova_lista)
+cat("\n\nnova_lista = ", nova_lista)
 
 
 ```
