@@ -38,7 +38,7 @@ for i in semana:
     print(i)
 ```    
 ### <b>Pesquisando itens em uma lista </b>
-Em algumas vezes é preciso verificar se um determinado valor está contido em uma lista. Para isso, utilizamos o operador **in**, que indicará se valor pertence a lista (True), e False caso contrário. A seguir um exemplo de uso desse operador:
+Em algumas vezes é preciso verificar se um determinado valor está contido em uma lista. Para isso, utilizamos o **operador in**, que indicará se valor pertence a lista (True), e False caso contrário. A seguir um exemplo de uso desse operador:
 
 ```python runnable
 
