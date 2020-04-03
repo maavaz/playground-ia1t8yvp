@@ -133,5 +133,8 @@ In [18]: lista
 Out[18]: [9, 8, 6, 4, 3, 2]
 
 ```
-**OBS:** Existem vários outros métodos para manipulação de listas, mas, estes métodos, serão apresentados caso haja necessidade. Do contrário, sugiro fazer uma busca na web sobre o tema.
+### <b>Outros métodos para manipulação de listas</b>
+
+Existem outros métodos para manipulação de listas, apresentados na tabela abaixo:
+
 
