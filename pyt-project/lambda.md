@@ -37,3 +37,13 @@ In [3]: cubo(5)
 
 Out[3]: 125
 ```
+
+## <b>Expressões lambda com Map(), Reduce() e Filter()</b>
+A função lamda pode ser utilizada em conjunto com outras funções como map, reduce e filter. 
+
+### <b>Função Map()</b>
+A função map() tem como objetivo aplicar uma função a todos os elementos de uma lista gerando uma nova lista como resultado.
+O formato geral é:
+![funcao](/imagens/map.png)
+
+
