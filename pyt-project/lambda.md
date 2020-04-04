@@ -54,6 +54,8 @@ A **função reduce()** aplica uma função em todos de uma lista, e retornar ap
 O formato geral é:
 ![funcao](/imagens/reduce.png)
 ``` python runnable
+from functools import reduce
+
 lista = [1, 2, 3, 4, 5, 6]
 produto = reduce(lambda x,y: x * y, lista) #retorna o produto de todos os elemento de lista
 print("lista = ", lista,"\n\nproduto = ", produto)
