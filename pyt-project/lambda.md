@@ -67,6 +67,6 @@ O formato geral é:
 ``` python runnable
 
 lista = [1, 2, 3, 4, 5, 6]
-lista1 = list(filter(lambda x,y: x > y, lista)) #retorna o produto de todos os elemento de lista
+lista1 = list(filter(lambda x,y: x if x > y else y, lista)) #retorna o produto de todos os elemento de lista
 print("lista = ", lista,"\n\nlista1 = ", lista1)
 ```
