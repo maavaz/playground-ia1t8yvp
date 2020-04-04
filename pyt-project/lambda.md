@@ -55,6 +55,6 @@ O formato geral é:
 ![funcao](/imagens/reduce.png)
 ``` python runnable
 lista = [1, 2, 3, 4, 5, 6]
-produto = list(map(lambda x,y: x * y, lista)) #retorna o produto de todos os elemento de lista
+produto = list(reduce(lambda x,y: x * y, lista)) #retorna o produto de todos os elemento de lista
 print("lista = ", lista,"\n\nlista1 = ", produto)
 ```
