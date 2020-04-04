@@ -60,3 +60,13 @@ lista = [1, 2, 3, 4, 5, 6]
 produto = reduce(lambda x,y: x * y, lista) #retorna o produto de todos os elemento de lista
 print("lista = ", lista,"\n\nproduto = ", produto)
 ```
+### <b>Função filter()</b>
+A **função filter()** aplica um filtro sobre os elementos da lista, de acordo com a função passada como primeiro argumento.
+O formato geral é:
+![funcao](/imagens/filter.png)
+``` python runnable
+
+lista = [1, 2, 3, 4, 5, 6]
+lista1 = list(filter(lambda x,y: x > y, lista)) #retorna o produto de todos os elemento de lista
+print("lista = ", lista,"\n\nlista1 = ", lista1)
+```
