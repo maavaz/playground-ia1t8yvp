@@ -41,9 +41,13 @@ Out[3]: 125
 A função lamda pode ser utilizada em conjunto com outras funções como map, reduce e filter. 
 
 ### <b>Função Map()</b>
-A função map() tem como objetivo aplicar uma função a todos os elementos de uma lista gerando uma nova lista como resultado.
+A **função map()** tem como objetivo aplicar uma função a todos os elementos de uma lista gerando uma nova lista como resultado.
 O formato geral é:
 ![funcao](/imagens/map.png)
-
+``` python runnable
+lista = [1, 2, 3, 4, 5, 6]
+lista1 = [map(lambda x: X**2, lista)
+print("lista = ", lista, "\n\nlista1 = ", lista1)
+```
 
 
