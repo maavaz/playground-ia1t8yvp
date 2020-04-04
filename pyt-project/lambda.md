@@ -47,7 +47,8 @@ O formato geral é:
 ``` python runnable
 lista = [1, 2, 3, 4, 5, 6]
 lista1 = [map(lambda x: X**2, lista)
-print("lista = ", lista, "\n\nlista1 = ", lista1)
+print("lista = ", lista)
+print("\n\nlista1 = ", lista1)
 ```
 
 
