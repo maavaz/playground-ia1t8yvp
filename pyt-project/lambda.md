@@ -46,9 +46,8 @@ O formato geral é:
 ![funcao](/imagens/map.png)
 ``` python runnable
 lista = [1, 2, 3, 4, 5, 6]
-lista1 = list(map(lambda x: X**2, lista)) #eleva ao quadrado os elementos de lista para criar lista1
-print("lista = ", lista)
-print("\n\nlista1 = ", lista1)
+lista1 = list(map(lambda x: x**2, lista)) #eleva ao quadrado os elementos de lista para criar lista1
+print("lista = ", lista,"\n\nlista1 = ", lista1)
 ```
 
 
